@@ -40,7 +40,7 @@ Next, you will set up a "tunnel" through Cloudflare, for Cloudflared (note the '
 
 7. Click the `Cloudflared` program icon. This will open a new tab with your Cloudflared program. Click inside the text box beneath **Enter Tunnel Connector Token:". Then press `CTRL + V` (for Linux or Windows) or `CMD + V` (for Mac) to *Paste* the text from Step 5.
 
-<img src="../Media_Repository/Cloudflared_Install_4.png" alt="Cloudflared Proxy Manager installation 4" title="Cloudflared Proxy Manager installation 4" width="50%"/> 
+<img src="../Media_Repository/Cloudflared_Install_4.png" alt="Cloudflared Proxy Manager installation 4" title="Cloudflared Proxy Manager installation 4" width="40%"/> <img src="../Media_Repository/Cloudflared_Install_5.png" alt="Cloudflared Proxy Manager installation 5" title="Cloudflared Proxy Manager installation 5" width="40%"/>
 
 5. Press the `Save` button. It will turn into `Start` button. Press the `Start` button. Close out of the Cloudflared tab and delete `Cloudflared_Tunnel.txt`.
 
