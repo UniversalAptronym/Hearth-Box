@@ -100,7 +100,9 @@ In the "subdomain" section, enter **pihole**. In the "domain" section, select yo
 
 Note: Technically you can use any open port number for Pi-hole, not just ":8080". However, ":8080" is selected to match the port we will designate for Nextcloud in a later step. Do not change this number unless you know what you're doing.
 
-You are finished with Cloudflare! Hallelujah!
+# __Next Step__
+
+Your Raspberry Pi is now connected to the worldwide web! Hallelujah!
 
 Before moving on, try connecting to your Raspberry Pi homepage via the worldwide web! Type `home.exampleWebURL` into your web browser's address bar, where `exampleWebURL` corresponds to your chosen **Web URL**, including the ".com", ".org", etc suffix on the end. This should take you to your Raspberry Pi's homepage from anywhere in the world. 
 
