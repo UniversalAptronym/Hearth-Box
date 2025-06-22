@@ -50,7 +50,7 @@ That's it! That's all you have to do with Cloudflared.
 
 Note: If you ever move / get a new router, you may have to refresh your token. Do so by returning to the Tunnel page (see the [Cloudflare section](../Instructions/Cloudflare_(Web_URL).md)), clicking the **3 menu dots** next to your tunnel, clicking **Configure**, clicking **Docker**, and then clicking **Refresh Token**. Then copy the new token, as previously, and open Cloudflared. Press **Stop**, paste the new token, then press **Save** and then **Start**.
 
-## __Setting Up Connections To Specifics Programs__
+## __Setting Up Connections To Specific Programs__
 
 6. Finally, return to the Cloudflare webpage, scroll down, and click `Next` at the bottom of the page. This will take you to the page pictured below.
   
@@ -60,14 +60,13 @@ Note: If you ever move / get a new router, you may have to refresh your token. D
 
 What you do next depends on whether you are setting up a full home server or only a secure communications hub. Follow the instructions below based on your choice. Either way, this next step will set up a series of sub-websites which you will use to access various functions of your Raspberry Pi. For example, `databag.[exampleweburl].org` will take you to your secure communications hub. Meanwhile `nginx.[exampleweburl].org` will take you to part of your device's security interface, and `pihole.[exampleweburl].org` will take you to the control panel for an adblocker which will reduce the number of ads for all devices on your internet.
 
-
 ## __Full Home Server (includes Secure Communications)__
 
 ### __Databag__
 
 Once your system is set up, this URL will take you to your secure communication hub.
 
-In the `subdomain` section, enter **databag**. In the `domain` section, select your chosen URL from the drop-down list. Under `type` select **HTTP**. Under `URL`, enter your **Global IP address** followed by **:7000**. It should have the form: **XXX.XXX.XXX.XXX:7000**. Click `Save`. Then select your tunnel name to enter the next public hostname.
+In the "subdomain" section, enter **databag**. In the "domain" section, select your chosen URL from the drop-down list. Under "type" select `HTTP`. Under "URL", enter your **global IP address** followed by `:7000`. It should have the form: `XXX.XXX.XXX.XXX:7000`. Click `Save`. Then select your tunnel name to enter the next public hostname.
 
 <img src="../Media_Repository/Cloudflare_Public_Hostname_databag.png" alt="Cloudflare Public Hostname Databag" title="Cloudflare Public Hostname Databag" width="40%"/> <img src="../Media_Repository/Cloudflare_Tunnel_Select.png" alt="Cloudflare Tunnel Select" title="Cloudflare Tunnel Select" width="40%"/> 
 
@@ -75,7 +74,7 @@ In the `subdomain` section, enter **databag**. In the `domain` section, select y
 
 Once your system is set up, this URL will take you to your new cloud server, where you can back up and share files. This will incidentally host a secondary communication hub. 
 
-In the `subdomain` section, enter **nextcloud**. In the `domain` section, select your chosen URL from the drop-down list. Under `type` select **HTTP**. Under `URL`, enter your **Global IP address** followed by **:7580**. It should have the form: **XXX.XXX.XXX.XXX:7580**. Click `Save`. Then select your tunnel name to enter the next public hostname.
+In the "subdomain" section, enter **nextcloud**. In the "domain" section, select your chosen URL from the drop-down list. Under "type" select `HTTP`. Under "URL", enter your **global IP address** followed by `:7580`. It should have the form: `XXX.XXX.XXX.XXX:7580`. Click `Save`. Then select your tunnel name to enter the next public hostname.
 
 <img src="../Media_Repository/Cloudflare_Public_Hostname_nextcloud.png" alt="Cloudflare Public Hostname Nextcloud" title="Cloudflare Public Hostname Nextcloud" width="40%"/> <img src="../Media_Repository/Cloudflare_Tunnel_Select.png" alt="Cloudflare Tunnel Select" title="Cloudflare Tunnel Select" width="40%"/> 
 
@@ -83,7 +82,7 @@ In the `subdomain` section, enter **nextcloud**. In the `domain` section, select
 
 Once your system is set up, this URL will take you to the control panel for an adblocker which will reduce the number of ads for all devices on your internet.
 
-In the `subdomain` section, enter **pihole**. In the `domain` section, select your chosen URL from the drop-down list. Under `type` select **HTTP**. Under `URL`, enter your **Global IP address** followed by **:8080**. It should have the form: **XXX.XXX.XXX.XXX:8080**. Click `Save`. 
+In the "subdomain" section, enter **pihole**. In the "domain" section, select your chosen URL from the drop-down list. Under "type" select `HTTP`. Under "URL", enter your **global IP address** followed by `:8080`. It should have the form: `XXX.XXX.XXX.XXX:8080`. Click `Save`. 
 
 <img src="../Media_Repository/Cloudflare_Public_Hostname_pihole.png" alt="Cloudflare Public Hostname Pihole" title="Cloudflare Public Hostname Pihole" width="40%"/> <img src="../Media_Repository/Cloudflare_Tunnel_Select.png" alt="Cloudflare Tunnel Select" title="Cloudflare Tunnel Select" width="40%"/>
 
