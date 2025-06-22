@@ -32,5 +32,5 @@ Note: Updates to Cloudflare's website may cause its user interface or layout to 
 
 **Caution**: If you move your equipment so that it is connected to a different internet router (if you move apartments, for example), your **global IP address** will change. Repeat Step 1 to find your new **global IP address**, then change the `IPv4 address` field in this step to that new value.
 
-You will need to access [Cloudflare's website](https://www.cloudflare.com/) for a later part of the process, so leave this webpage open in the background for now. Your next step will be to [image an operating system onto your Raspberry Pi](../Instructions/Raspberry_Pi_Image_Decision.md).
+You will need to access your account on [Cloudflare's website](dash.cloudflare.com/) for a later part of the process, so leave this webpage open in the background for now. Your next step will be to [image an operating system onto your Raspberry Pi](../Instructions/Raspberry_Pi_Image_Decision.md).
 
