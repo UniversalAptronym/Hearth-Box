@@ -1,10 +1,10 @@
-# __Cloudflared + Nginx + Port Forwarding Setup (Connecting Your Pi To The Worldwide Web)__
+# __Cloudflared Tunnel Setup (Connecting Your Pi To The Worldwide Web)__
 
-In this section you will install a Cloudflared tunnel and Nginx Proxy Manager. Each of these will be one component of letting your Hearth Box connect to the wider internet, and is described in greater detail below.
+In this section you will install a Cloudflared tunnel. This well let you and others connect securely to your Hearth Box from the worldwide web.
 
 *Author's Note: Tail Scale and Head Scale are programs which can be used in place of Cloudflare for this, removing even that reliance on a potentially untrusted service provide, and we intend to add tutorial options for them at a later date. However these programs are a bit more technically tricky to set up, and morever require technical effort on the part of everyone who wants to connect to your server beyond simply typing in a URL and logging on to your server, so they are not our focus at this time.* 
 
-## __Cloudflared__
+## __Installing Cloudflared__
 
 Cloudflared (note the 'd') is a program which connects your server to a Cloudflare tunnel. This ensures that encrypted information always goes through Cloudflare, where it is properly encrypted and protected from eavesdroppers. [Here is an explanation, if you are curious.](https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/)
 
@@ -15,6 +15,35 @@ Cloudflared (note the 'd') is a program which connects your server to a Cloudfla
 2. This should bring up the following installation window, which you can scroll to see the entirety of. Add your **Raspberry Pi's local IP address** to the leftmost text box under "Web UI". The click `Save`. This tells your server that you want to connect to this program via your local router, not the worldwide web. (You will only be able to access this program from a machine connected to your local router, but that's fine, you only need to use it once.
 
 <img src="../Media_Repository/Cloudflared_Install_3.png" alt="Cloudflared Proxy Manager installation 3" title="Cloudflared Proxy Manager installation 3" width="50%"/>
+
+Leave this webpage open in the background during the next steps, you will be returning to it shortly.
+
+## __Setting up a Cloudflare Tunnel__
+
+Next, you will set up a "tunnel" through Cloudflare, for Cloudflared (note the 'd') to connect to. This ensures that encrypted information always goes through Cloudflare, where it is properly encrypted and protected from eavesdroppers. [An explanation, if you are curious.](https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/)
+
+3. If you still have Cloudflare's webpage open from previous steps, return to it. If not, open [Cloudflare's website in a new browser tab or browser page](https://dash.cloudflare.com/) Return to Cloudflare's `Account Home`. On the left-hand side of your screen, click `Zero Trust`. This will take you to a screen where you enter a team name. Enter whatever you want, you don't have to record this.
+
+<img src="../Media_Repository/Cloudflare_Zero_Trust_1.png" alt="Cloudflare Networks button" title="Cloudflare Networks button" width="40%"/> <img src="../Media_Repository/Cloudflare_Zero_Trust_1a.png" alt="Cloudflare Team Name" title="Cloudflare Team Name" width="30%"/> 
+
+11. In the home page for `Zero Trust`, click `Networks`, then click `Create a tunnel`. Select `Cloudflared`. Enter a name for your tunnel and click `Save Tunnel`. You do not have to record this name - it will be here on your Cloudflare account if you ever need it again. Select `Docker`. Click the text which begins with `$ docker run`, or highlight and press `Ctrl + C` to *Copy* that text.
+
+<img src="../Media_Repository/Cloudflare_Zero_Trust_2.png" alt="Cloudflare tunnel button" title="Cloudflare tunnel button" width="40%"/> <img src="../Media_Repository/Cloudflare_Zero_Trust_3.png" alt="Cloudflare Cloudflared button" title="Cloudflare Cloudflared button" width="40%"/>
+
+<img src="../Media_Repository/Cloudflare_Zero_Trust_4.png" alt="Cloudflare tunnel name field" title="Cloudflare tunnel name field" width="40%"/> <img src="../Media_Repository/Cloudflare_Zero_Trust_5.png" alt="Cloudflare connector text" title="Cloudflare connector text" width="40%"/>
+
+12. Before beginning, you should have created a text file named `Cloudflare_Tunnel.txt`. Open it. Then press `CTRL + V` (for Linux or Windows) or `CMD + V` (for Mac) to *Paste* the text you copied in previous step into the file. Save this file and leave the folder it is within open.
+
+13. Finally, return to the Cloudflare webpage, scroll down, and click `Next` at the bottom of the page. This will take you to the page pictured below.
+  
+**Note:** Depending on what part of the process you're at, the `Save` button will either say `Save Tunnel` or `Save Hostname`.
+
+<img src="../Media_Repository/Cloudflare_Public_Hostname_0.png" alt="Cloudflare Public Hostname Blank" title="Cloudflare Public Hostname Blank" width="50%"/>
+
+What you do next depends on whether you are setting up a full home server or only a secure communications hub. Follow the instructions below based on your choice. Either way, this next step will set up a series of sub-websites which you will use to access various functions of your Raspberry Pi. For example, `databag.[exampleweburl].org` will take you to your secure communications hub. Meanwhile `nginx.[exampleweburl].org` will take you to part of your device's security interface, and `pihole.[exampleweburl].org` will take you to the control panel for an adblocker which will reduce the number of ads for all devices on your internet.
+
+
+
 
 3. Before beginning, you should have created a text file named `Cloudflare_Tunnel.txt`. Open it. Select all the text within, then press `CTRL + C` (for Linux or Windows) or `CMD + C` (for Mac) to *Copy* the text within.
 
