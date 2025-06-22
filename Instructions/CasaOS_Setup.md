@@ -41,4 +41,4 @@ Note: Terminal windows often do not accept `ctrl+v` commands to paste content. I
 
 <img src="../Media_Repository/CasaOS_Apps_4.png" alt="CasaOS Apps 4" title="CasaOS Apps 4" width="40%"/> <img src="../Media_Repository/CasaOS_Apps_5.png" alt="CasaOS Apps 5" title="CasaOS Apps 5" width="40%"/>
 
-Now on to the next step. We're going to use [Nginx to safely connect your Raspberry Pi to the worldwide web](../Instructions/Nginx_Setup_(Web_Connection).md).
+Now on to the next step. We're going to use [Nginx, Cloudflared, and port fowarding to safely connect your Raspberry Pi to the worldwide web](../Instructions/Cloudflared_Nginx_Setup_(Web_Connection).md).

@@ -35,7 +35,7 @@ We want to make this project accessible to _as many people as possible_, which m
     (_Authors' Note:_ If you're in the United States, the 2025 tariffs have substantially increased the prices for electronics. The prices listed in this guide may no longer be accurate, but the market is too volatile to keep them updated. For lower prices or improved availability, we suggest buying refurbished equipment if possible, with the exception of hard drives. If you choose to purchase refurbished hard drives as well, be aware they they can be unreliable and you should be especially vigilant about backing up any data stored on your Hearth Box.)
 
     1. [Full Home Server with Cloud Storage and Secure Communication](Equipment_List/Description_Full_Home_Server.md) (~$150-200 + $10/yr)
-    2. [Secure Communication Only](Equipment_List/Description_Secure_Communication_Only.md) (~$50-70 + $10/yr)
+    2. [Secure Communication Only](Equipment_List/Description_Secure_Communication_Only.md) (~$50-70 + $10/yr) (under construction)
  2. Buy the equipment you need from [this list](Equipment_List/README.md).
  3. Get a domain name (web URL) and set it up. When you are finished, you and others will access your communication server by going to this URL. [Setting up a web URL with Cloudflare.md](Instructions/Cloudflare_(Web_URL).md)
  4. Install the imaging software. This software lets you use your computer to install other software onto your equipment.
@@ -45,11 +45,11 @@ We want to make this project accessible to _as many people as possible_, which m
 5. [Assemble your Raspberry Pi](Instructions/Raspberry_Pi_Assembly.md).
 6. [Image an operating system](Instructions/Raspberry_Pi_Image_Setup.md) onto your Micro SD Card (Secure Communication Only) or your SSD (Full Home Server). These are the storage devices which will hold all the operational software for your equipment.
 7. [Install SSH software](Instructions/SSH_setup.md) (this lets your computer talk to your Raspberry Pi during the installation).
-8. [Log into your Pi and complete the installation](Instructions/CasaOS_Setup.md).
-9. Optional: [Install an advertisement and tracker blocker](Instructions/Pi-hole_Installation.md)
+8. [Log into your Pi and complete the installation, using CasaOS](Instructions/CasaOS_Setup.md).
+9. [Set up Nginx, Cloudflared (not to be confused with Cloudflare), and port-forwarding](Instructions/Cloudflared_Nginx_Setup_(Web_Connection).md), which lets you and others connect to Nextcloud / Databag remotely over the internet.
 10. (For full home server users). Set up your Nextcloud server, for secure communications and cloud storage.
 11. Optional: Set up your Databag server, for extra secure communications.
-12. Set up Nginx, which lets you and others connect to Nextcloud / Databag remotely over the internet.
+12. Optional: [Install an advertisement and tracker blocker](Instructions/Pi-hole_Installation.md)
 13. Talk to your friends and say hi to others.
 
 # __Usernames and Passwords__
@@ -63,38 +63,42 @@ Before you start, you should to decide on the usernames, passwords, and emails y
 You will need:
 
 ## __For regular use__
-- **Web URL** (this is the URL you and others will use to access your Pi's services)
-
  **Warning:** This is publically visible. *It should not match any usernames, passwords, or emails below*.
+ 
+- **Web URL** (this is the URL you and others will use to access your Pi's services) **(IMPORTANT: This is publically visible and SHOULD NOT MATCH ANY USERNAMES BELOW)**
 
-- **Databag username** (this is your username for the secure communication app) (**Warning:** Do not ever set your browser to autocomplete this username)
-- **Databag password** (this is your password for the secure communication app) (**Warning:** Do not ever set your browser to autocomplete this password)
-
-#### __For regular use - Full Home Server Only__
 - **CasaOS username** (this is the username you use to log into your Pi through a web browser)
 - **CasaOS password** (this is the password you use to log into your Pi through a web browser)
 - **Nextcloud username** (this is the username you use to log into your home server storage, and an alternative secure communication service)
 - **Nextcloud password** (this is the password you use to log into your home server storage, and an alternative secure communication service)
 
-## __Usernames and passwords you'll need during installation or for changing your system later__
+### __Optional: For Databag, a secure communication app which is clunkier than Nextcloud but has better operational security__
+- **Databag username** (this is your username for the secure communication app) (Important: Do not ever set your browser to autocomplete this username)
+- **Databag password** (this is your password for the secure communication app) (Important: Do not ever set your browser to autocomplete this password)
+
+## __For regular use - Full Home Server Only__
+
+### __Usernames and passwords you'll need during installation or for changing your system later__
+**IMPORTANT:** None of these passwords should be the same as the others! 
 - **Raspberry Pi hostname** (`hostname`.local is the name your Pi goes by when your computer talks to it) 
 - **Raspberry Pi username** (this is the username you use to log into your Pi through the terminal) (if you don't know what that is yet, don't worry)
 - **Raspberry Pi password** (this is the password you use to log into your Pi through the terminal)
 - **Cloudflare email** (this is the email you use for a free account with a service which lets you receive and manage your web URL)
 - **Cloudflare password** (this is the password you use to receive and manage your web URL)
-- **Nginx email** (this is the email you use for a free account with a service which lets you send your computer passwords without other people intercepting them) 
-- **Databag admin password** (this is your administrator password for the secure communication app) **(IMPORTANT: None of these passwords should be the same as the others, but this one MUST BE DIFFERENT THAN THE OTHERS! DO NOT EVER SET YOUR BROWSER TO AUTOCOMPLETE THIS PASSWORD!)**
+- **Nginx email** (this is the email you use for a free account with a service which lets you send your computer passwords without other people intercepting them)
+- **Nginx password** (this is the password you use for a free account with a service which lets you send your computer passwords without other people intercepting them) 
+- **Databag admin password** (this is your administrator password for the secure communication app) 
 
-## __Recorded information__
-You will also learn the following information during this installation. 
+### __Recorded information__
+You will also need to record the following information during this installation. 
 
-### __Offline Recorded Information__
+#### __Offline Recorded Information__
 You should record this information somewhere offline, where you won't lose it.
 - Your Raspberry **Pi's local IP address**
 - Your network **router's local IP address**
 - Your network **router's global IP address**
 
-### __Temporarily Recorded Information__
+#### __Temporarily Recorded Information__
 This information will be temporarily stored on your computer, and should be deleted when this setup is finished.
 To prepare you should make:
 - A folder named `Cloudflare_Setup_Files`.
