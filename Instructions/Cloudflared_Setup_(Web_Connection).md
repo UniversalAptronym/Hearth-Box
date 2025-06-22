@@ -64,9 +64,11 @@ What you do next depends on whether you are setting up a full home server or onl
 
 This will take you to your Raspberry Pi homepage, the same webpage you accessed in Step 1 by entering your **Raspberry Pi's local IP address**, but it will do so from anywhere in the world.
 
-In the "subdomain" section, enter **nextcloud**. In the "domain" section, select your chosen URL from the drop-down list. Under "type" select `HTTP`. Under "URL", enter your **Raspberry Pi's local IP address** followed by `:7580`. It should have the form: `XXX.XXX.XXX.XXX:80`. Click `Save`. Then select your tunnel name to enter the next public hostname.
+In the "subdomain" section, enter **nextcloud**. In the "domain" section, select your chosen URL from the drop-down list. Under "type" select `HTTP`. Under "URL", enter your **Raspberry Pi's local IP address** followed by `:80`. It should have the form: `XXX.XXX.XXX.XXX:80`. Click `Save`. Then select your tunnel name to enter the next public hostname.
 
 <img src="../Media_Repository/Cloudflare_Public_Hostname_homepage.png" alt="Cloudflare Public Hostname Homepage" title="Cloudflare Public Hostname Homepage" width="40%"/> <img src="../Media_Repository/Cloudflare_Tunnel_Select.png" alt="Cloudflare Tunnel Select" title="Cloudflare Tunnel Select" width="50%"/> 
+
+Note: ":80" represents the standard internet "port" which webpages use for unencrypted "http" communications. This does not mean you are connecting to your Raspberry Pi in an insecure way though - this unencrypted communication is only occuring locally between your Cloudflared program and the rest of your Raspberry Pi. All private information is still encrypted properly through Cloudflared. [Here is an explanation about internet ports, if you are curious.](https://www.cloudflare.com/learning/network-layer/what-is-a-computer-port/)
 
 ### __Nextcloud__
 
@@ -76,6 +78,8 @@ In the "subdomain" section, enter **nextcloud**. In the "domain" section, select
 
 <img src="../Media_Repository/Cloudflare_Public_Hostname_nextcloud.png" alt="Cloudflare Public Hostname Nextcloud" title="Cloudflare Public Hostname Nextcloud" width="40%"/> <img src="../Media_Repository/Cloudflare_Tunnel_Select.png" alt="Cloudflare Tunnel Select" title="Cloudflare Tunnel Select" width="50%"/> 
 
+Note: Technically you can use any open port number for Nextcloud, not just ":7580". However, ":7580" is selected to match the port we will designate for Nextcloud in a later step. Do not change this number unless you know what you're doing.
+
 ### __Databag__
 
 Once your system is set up, this URL will take you to a secondary secure communication hub.
@@ -84,7 +88,9 @@ In the "subdomain" section, enter **databag**. In the "domain" section, select y
 
 <img src="../Media_Repository/Cloudflare_Public_Hostname_databag.png" alt="Cloudflare Public Hostname Databag" title="Cloudflare Public Hostname Databag" width="40%"/> <img src="../Media_Repository/Cloudflare_Tunnel_Select.png" alt="Cloudflare Tunnel Select" title="Cloudflare Tunnel Select" width="50%"/> 
 
-### __Pihole__
+Note: Technically you can use any open port number for Databag, not just ":7000". However, ":7000" is selected to match the port we will designate for Nextcloud in a later step. Do not change this number unless you know what you're doing.
+
+### __Pi-hole__
 
 Once your system is set up, this URL will take you to the control panel for an adblocker which will reduce the number of ads for all devices on your internet.
 
@@ -92,6 +98,12 @@ In the "subdomain" section, enter **pihole**. In the "domain" section, select yo
 
 <img src="../Media_Repository/Cloudflare_Public_Hostname_pihole.png" alt="Cloudflare Public Hostname Pihole" title="Cloudflare Public Hostname Pihole" width="40%"/> <img src="../Media_Repository/Cloudflare_Tunnel_Select.png" alt="Cloudflare Tunnel Select" title="Cloudflare Tunnel Select" width="40%"/>
 
+Note: Technically you can use any open port number for Pi-hole, not just ":8080". However, ":8080" is selected to match the port we will designate for Nextcloud in a later step. Do not change this number unless you know what you're doing.
+
 You are finished with Cloudflare! Hallelujah!
+
+Before moving on, try connecting to your Raspberry Pi homepage via the worldwide web! Type `home.exampleWebURL` into your web browser's address bar, where `exampleWebURL` corresponds to your chosen **Web URL**, including the ".com", ".org", etc suffix on the end. This should take you to your Raspberry Pi's homepage from anywhere in the world. 
+
+Note: When you install new programs on your Pi, each one needs to be manually connected to the internet for you to be able to access it from anyone, rather than just your local internet. This includes connecting your Cloudflare tunnel to them, as above, and also connecting the program to the web, which we will cover in the next section.
 
 Next you will install a [secure communications system and home cloud server using Nextcloud](../Instructions/Nextcloud_Setup_Local.md).
