@@ -60,8 +60,6 @@ Note: If you ever move / get a new router, you may have to refresh your token. D
 
 What you do next depends on whether you are setting up a full home server or only a secure communications hub. Follow the instructions below based on your choice. Either way, this next step will set up a series of sub-websites which you will use to access various functions of your Raspberry Pi. For example, `databag.[exampleweburl].org` will take you to your secure communications hub. Meanwhile `nginx.[exampleweburl].org` will take you to part of your device's security interface, and `pihole.[exampleweburl].org` will take you to the control panel for an adblocker which will reduce the number of ads for all devices on your internet.
 
-## __Full Home Server (includes Secure Communications)__
-
 ### __Raspberry Pi Homepage__
 
 This will take you to your Raspberry Pi homepage, the same webpage you accessed in Step 1 by entering your **Raspberry Pi's local IP address**, but it will do so from anywhere in the world.
@@ -72,7 +70,7 @@ In the "subdomain" section, enter **nextcloud**. In the "domain" section, select
 
 ### __Nextcloud__
 
-Once your system is set up, this URL will take you to your new cloud server, where you can back up and share files. This will incidentally host a secondary communication hub. 
+Once your system is set up, this URL will take you to your new cloud server, which will host a communication hub and cloud storage system where you can back up and share files.
 
 In the "subdomain" section, enter **nextcloud**. In the "domain" section, select your chosen URL from the drop-down list. Under "type" select `HTTP`. Under "URL", enter your **Raspberry Pi's local IP address** followed by `:7580`. It should have the form: `XXX.XXX.XXX.XXX:7580`. Click `Save`. Then select your tunnel name to enter the next public hostname.
 
@@ -80,7 +78,7 @@ In the "subdomain" section, enter **nextcloud**. In the "domain" section, select
 
 ### __Databag__
 
-Once your system is set up, this URL will take you to your secure communication hub.
+Once your system is set up, this URL will take you to a secondary secure communication hub.
 
 In the "subdomain" section, enter **databag**. In the "domain" section, select your chosen URL from the drop-down list. Under "type" select `HTTP`. Under "URL", enter your **Raspberry Pi's local IP address** followed by `:7000`. It should have the form: `XXX.XXX.XXX.XXX:7000`. Click `Save`. Then select your tunnel name to enter the next public hostname.
 
@@ -94,13 +92,7 @@ In the "subdomain" section, enter **pihole**. In the "domain" section, select yo
 
 <img src="../Media_Repository/Cloudflare_Public_Hostname_pihole.png" alt="Cloudflare Public Hostname Pihole" title="Cloudflare Public Hostname Pihole" width="40%"/> <img src="../Media_Repository/Cloudflare_Tunnel_Select.png" alt="Cloudflare Tunnel Select" title="Cloudflare Tunnel Select" width="40%"/>
 
-You are finished with Cloudflare! Hallelujah! Your next step will be to [image an operating system onto your Raspberry Pi](../Instructions/Raspberry_Pi_Image_Decision.md).
-
-## __Secure Communications Only__
-
-*Under construction. Please check back later!*
-
-
+You are finished with Cloudflare! Hallelujah!
 
 As a gentle introduction to CasaOS, you might want to set up an advertisement / tracker blocker, called Pi-hole, which will block many ads you might otherwise see while browsing the internet. [Click here to install Pi-hole](../Instructions/Pi-hole_Installation.md).
 
