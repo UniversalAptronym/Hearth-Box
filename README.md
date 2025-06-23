@@ -88,25 +88,10 @@ You will need:
 - **Databag admin password** (this is your administrator password for the secure communication app) 
 
 ### __Recorded information__
-You will also need to record the following information during this installation. 
-
-#### __Offline Recorded Information__
-You should record this information somewhere offline, where you won't lose it.
+You will also need to record the following information during this installation. You should record this information somewhere offline, where you won't lose it.
 - Your Raspberry **Pi's local IP address**
 - Your network **router's local IP address**
 - Your network **router's global IP address**
-
-#### __Temporarily Recorded Information__
-This information will be temporarily stored on your computer, and should be deleted when this setup is finished.
-To prepare you should make:
-- A folder named `Cloudflare_Setup_Files`.
-In this folder you should make
-  - An empty text file named `Cloudflare_Tunnel`.
-  - An empty text file named `Cloudlflare_SSL_Certificate`.
-  - An empty text file named `Cloudlflare_SSL_Private_Key`.
-
-If you do not know how to make new folders or text files, see these guides for doing so with [Windows](Instructions/New_Folder_File_Instructions_(Windows).md) and [Mac](Instructions/New_Folder_File_Instructions_(Mac).md).
-
 
 # __Let's Get Started!__
 
