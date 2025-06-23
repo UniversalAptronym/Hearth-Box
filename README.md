@@ -2,8 +2,6 @@
 # __About This Project__
 **==================================================**
 
-[Setup and Installation Guide](../../wiki/Setup-and-Installation)
-
 Welcome to the Hearth Box project. Our primary goal is to provide an easy to use and affordable method for oppressed and at-risk groups (such as the LGBT+ community and religious or ethnic minorities) to communicate securely without fear of surveillance, censorship, or government violence. Our secondary goal is to make it easier for people to manage and store their own data online, without relying on expensive and intrusive tech monopolies. This guide will show you how to set up a secure, end-to-end encrypted, self-hosted communication server which includes text, voice, and video chat, and which can be modified to include encrypted, remotely-accessible cloud storage and ad blocking. 
 
 This guide will show you how to set up a "Hearth Box". A Hearth Box is a device you physically own, which hosts a secure, end-to-end encrypted, self-hosted server accessible on the worldwide web. What this means is that you and others can communicate through it via text, voice, and video chat, on your personal computers and mobile devices, without censorship and without anyone intercepting and reading your communications en-route. A Hearth Box also enables cloud storage of your personal data, which likewise cannot be censored or spied on by third parties. Finally, as an extra perk, a Hearth Box can help filter some internet ads which standard ad-blockers may miss.
