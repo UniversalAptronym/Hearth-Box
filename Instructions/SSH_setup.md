@@ -17,7 +17,7 @@ Note: Terminal windows often do not accept `ctrl+v` commands to paste content. I
 
 <img src="../Media_Repository/PuTTY_screen.png" alt="PuTTY login screen" title="PuTTY login screen" width="40%"/>
 
-2. Press `Open` at the bottom of the PuTTY screen. This will open a mostly black window with only text, saying `login as:`. This is known as the "terminal" window, which is used to give commands to computers using text inputs. Enter your **Pi username** and press Enter. Enter your **Pi password** (no text will appear as you type, as a security measure) and press Enter.
+2. Press `Open` at the bottom of the PuTTY screen. This will open a mostly black window with only text, saying `login as:`. This is known as the "terminal" window, which is used to give commands to computers using text inputs. Enter your **Pi username** and press Enter. Enter your **Pi password** (no text will appear as you type, as a security measure) and press Enter. (Note: You can use use the backspace key to delete text despite the lack of visible text input.)
   - If this works, some more text will appear and the bottom line will read `[exampleHostame].[exampleUsername]:~ $`. This means your computer is speaking to a machine named `exampleHostname` (this is your Pi), and you are logged in as `[exampleUsername]`. Additionally, the `~` means you are accessing the home directory of your Pi, and the `$` means you are a normal user.
   - If you get a black screen without text, your Pi is probably not finished setting up. Exit the screen and try again in a few minutes.
   - If you get an error message, particularly anything about a software error, you probably got your wifi details wrong in the previous step.
@@ -83,7 +83,7 @@ Finally, you need to declare your **Pi's local IP address**. This is different f
 
 <img src="../Media_Repository/PuTTY_ssh_config_3.png" alt="PuTTY ssh config 3" title="PuTTY ssh config 3" width="40%"/>
 
-12. Use the `arrow keys` and your keyboard to edit `#ClientAliveInterval 0` to read `ClientAliveInterval 1000000`. This tells your Pi to leave SSH connections open for 1,000,000 seconds (more than a week, i.e. forever) before checking "Hey, are you still there?". Next edit `#ClientAliveInterval 0` to read `ClientAliveCountMax 3`. This tells your Pi to check if a connection is dropped 3 times before closing a connection.
+12. Use the `arrow keys` and your keyboard to edit `#ClientAliveInterval 0` to read `ClientAliveInterval 1000000`. This tells your Pi to leave SSH connections open for 1,000,000 seconds (more than a week, i.e. forever) before checking "Hey, are you still there?". Next edit `#ClientAliveCountMax 0` to read `ClientAliveCountMax 3`. This tells your Pi to check if a connection is dropped 3 times before closing a connection.
 
 <img src="../Media_Repository/PuTTY_ssh_config_4.png" alt="PuTTY ssh config 4" title="PuTTY ssh config 4" width="40%"/>
 

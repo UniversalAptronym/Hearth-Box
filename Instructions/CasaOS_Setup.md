@@ -12,12 +12,13 @@ Note: Terminal windows often do not accept `ctrl+v` commands to paste content. I
 
 <img src="https://imgs.xkcd.com/comics/dependency.png" alt="XKCD 2347: Dependency" title="XKCD 2347: Dependency" width="40%"/>
 
-2. This is the end of your time with terminal! In the final lines of CasaOS's installation output, you should see `- http://XXX.XXX.XXX.XXX (eth0)`. The **XXX.XXX.XXX.XXX** should be the same as the **local IP address** you gave to your Pi and recorded in the previous section. (Remember that **XXX** represents 1-3 digits, and **(eth0)** may be **(wlan0)** if you opted for a non-ethernet connection.) 
+2. This is the end of your time with terminal! In the final lines of CasaOS's installation output, you should see **- http://XXX.XXX.XXX.XXX (eth0)**. The **XXX.XXX.XXX.XXX** should be the same as the **local IP address** you gave to your Pi and recorded in the previous section. (Remember that **XXX** represents 1-3 digits, and **(eth0)** may be **(wlan0)** if you opted for a non-ethernet connection.) 
 
 <img src="../Media_Repository/CasaOS_Terminal_IP_Address.png" alt="CasaOS Local IP Address" title="CasaOS Local IP Address" width="40%"/> 
 
 3. Open an internet browser, type `http://XXX.XXX.XXX.XXX` (your **Raspberry Pi's local IP address**) into the URL bar, and press Enter. This will bring you to a browser webpage where you can access CasaOS, which is now running on your Raspberry Pi! You now have a fully functional mini-computer you can access through your internet browser.
 - Note: You can only access your Raspberry Pi using your **Pi's local IP address** from devices which are all connected to the same internet router. We will be making it so that you can access your Pi from anywhere in the world in later sections.
+- If this doesn't work, click the address in your address bar and check if it is prepended with **http://** or **https://**. Some browsers automatically prepend all address bar entries with **https://** as a security measure (the 's' indicates and encrypted connection), even when inappropriate, especially if you have enabled as setting which tells your browser to enforce https browsing as a security measure. 
 
 <img src="../Media_Repository/CasaOS_Browser_1.png" alt="CasaOS Browser Local IP Address in URL Bar" title="CasaOS Browser Local IP Address in URL Bar" width="50%"/> 
 

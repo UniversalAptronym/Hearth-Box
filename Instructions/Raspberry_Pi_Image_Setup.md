@@ -5,6 +5,10 @@ Secure communication only section, with dietpi.
 
 For the safety of your electronics, we highly recommend that all power outlets you plug your equipment to are part of surge-protector, or a power strip with surge protection, to avoid losing your equipment and data to a power surge.
 
+### __Troubleshooting__
+
+When something goes wrong in this section, or the following SSH_Setup and CasaOS_Setup sections, diagnosing the issue can often be tricky. If this happens, we suggest restarting the process from this point. Unplug your Raspberry Pi and disconnect your SSD from it. Restart the process from this point.
+ 
 # __Full Home Server__
 
 Install the [Raspberry Pi Imager](../Software_Repository/Raspberry_Pi_Imager.md) on your computer. This lets you turn your Raspbbery Pi from a lump of silicon into a working computer you can talk to.
