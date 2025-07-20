@@ -34,7 +34,7 @@ Note: Terminal windows often do not accept `ctrl+v` commands to paste content. I
 
 <img src="../Media_Repository/CasaOS_Layout_Settings.png" alt="CasaOS Layout Settings" title="CasaOS Layout Settings" width="50%"/>
 
-7. Finally, you need to tell your Pi where to find the Big Bear App Store, so you can use their apps. ("Store" is a bit misleading. All of these applications are free, and depend on your [donations](../donations_list.md) to do the work they do.) First, click on the App icon. Next, click the dropdown menu which says `### apps`, where `###` is some number. This will open a menu. In this menu, click `More Apps`. This will open a bar to type text into.
+7. Finally, you need to tell your Pi where to find the Big Bear App Store, so you can use their apps. ("Store" is a bit misleading. All of these applications are free, and depend on your [donations](../donations_list.md) to do the work they do.) First, click on the `App Store` icon. Next, click the dropdown menu which says `### apps`, where `###` is some number. This will open a menu. In this menu, click `More Apps`. This will open a bar to type text into.
 
 <img src="../Media_Repository/CasaOS_Apps_1.png" alt="CasaOS Apps 1" title="CasaOS Apps 1" width="30%"/> <img src="../Media_Repository/CasaOS_Apps_2.png" alt="CasaOS Apps 2" title="CasaOS Apps 2" width="30%"/> <img src="../Media_Repository/CasaOS_Apps_3.png" alt="CasaOS Apps 3" title="CasaOS Apps 3" width="30%"/> 
 
