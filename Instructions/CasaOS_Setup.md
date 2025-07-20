@@ -42,4 +42,6 @@ Note: Terminal windows often do not accept `ctrl+v` commands to paste content. I
 
 <img src="../Media_Repository/CasaOS_Apps_4.png" alt="CasaOS Apps 4" title="CasaOS Apps 4" width="40%"/> <img src="../Media_Repository/CasaOS_Apps_5.png" alt="CasaOS Apps 5" title="CasaOS Apps 5" width="40%"/>
 
+9. Repeat Step 8, but this time type `https://casaos-appstore.paodayag.dev/linuxserver.zip` into the bar and press Enter. This will add apps from the Linux Server community.
+
 Now on to the next step. We're going to use [Cloudflared to safely connect your Raspberry Pi to the worldwide web](../Instructions/Cloudflared_Setup_(Web_Connection).md).
