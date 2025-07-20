@@ -93,9 +93,11 @@ Steps 6 and 7 depend on if you are using a wired ethernet connection to connect 
 
 <img src="../Media_Repository/PuTTY_ssh_config_5.png" alt="PuTTY ssh config 5" title="PuTTY ssh config 5" width="40%"/> <img src="../Media_Repository/PuTTY_ssh_config_6.png" alt="PuTTY ssh config 6" title="PuTTY ssh config 6" width="40%"/>
 
-14. Finally, type `sudo systemctl reload ssh` and press Enter. This tells your Pi to apply the new SSH settings.
+14. Next, type `sudo systemctl reload ssh` and press Enter. This tells your Pi to apply the new SSH settings.
 
 <img src="../Media_Repository/PuTTY_ssh_config_7.png" alt="PuTTY ssh config 7" title="PuTTY ssh config 7" width="40%"/>
+
+15. Finally, type `sudo systemctl reboot` and press Enter. This tells your Pi to reboot to apply the new Ethernet / Wi-Fi connection settings from step 8. It will also terminate your connection with your Raspberry Pi. Wait a few moments for your Pi to reboot, then repeat Step 2 to reconnect with your Pi.
 
 Your Pi now knows how it's supposed to talk to other devices and you are ready for the next step, where we will finally leave all this terminal business behind! Follow the link below that matches the setup you want.
 
