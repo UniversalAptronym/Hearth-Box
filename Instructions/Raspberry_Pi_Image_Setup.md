@@ -5,6 +5,10 @@ Secure communication only section, with dietpi.
 
 For the safety of your electronics, we highly recommend that all power outlets you plug your equipment to are part of surge-protector, or a power strip with surge protection, to avoid losing your equipment and data to a power surge.
 
+### __Troubleshooting__
+
+When something goes wrong in this section, or the following SSH_Setup and CasaOS_Setup sections, diagnosing the issue can often be tricky. If this happens, we suggest restarting the process from this point. Unplug your Raspberry Pi and disconnect your SSD from it. Plug your SSD back into your computer via a USB port. Open your file browser and find the SSD drive, where you would find a USB drive, then `Format` it ([Windows tutorial](https://www.guidingtech.com/top-5-ways-to-format-a-usb-drive-on-windows-11/))([Apple tutorial](https://support.apple.com/guide/disk-utility/erase-and-reformat-a-storage-device-dskutl14079/mac)) to reset it to a fresh state.
+ 
 # __Full Home Server__
 
 Install the [Raspberry Pi Imager](../Software_Repository/Raspberry_Pi_Imager.md) on your computer. This lets you turn your Raspbbery Pi from a lump of silicon into a working computer you can talk to.
