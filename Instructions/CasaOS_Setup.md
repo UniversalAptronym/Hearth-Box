@@ -34,12 +34,14 @@ Note: Terminal windows often do not accept `ctrl+v` commands to paste content. I
 
 <img src="../Media_Repository/CasaOS_Layout_Settings.png" alt="CasaOS Layout Settings" title="CasaOS Layout Settings" width="50%"/>
 
-7. Finally, you need to tell your Pi where to find the Big Bear App Store, so you can use their apps. ("Store" is a bit misleading. All of these applications are free, and depend on your [donations](../donations_list.md) to do the work they do.) First, click on the App icon. Next, click the dropdown menu which says `### apps`, where `###` is some number. This will open a menu. In this menu, click `More Apps`. This will open a bar to type text into.
+7. Finally, you need to tell your Pi where to find the Big Bear App Store, so you can use their apps. ("Store" is a bit misleading. All of these applications are free, and depend on your [donations](../donations_list.md) to do the work they do.) First, click on the `App Store` icon. Next, click the dropdown menu which says `### apps`, where `###` is some number. This will open a menu. In this menu, click `More Apps`. This will open a bar to type text into.
 
 <img src="../Media_Repository/CasaOS_Apps_1.png" alt="CasaOS Apps 1" title="CasaOS Apps 1" width="30%"/> <img src="../Media_Repository/CasaOS_Apps_2.png" alt="CasaOS Apps 2" title="CasaOS Apps 2" width="30%"/> <img src="../Media_Repository/CasaOS_Apps_3.png" alt="CasaOS Apps 3" title="CasaOS Apps 3" width="30%"/> 
 
 8. Type `https://icewhale.bigbeartechworld.com/big-bear-casaos.zip` into this bar and press Enter. This will add additional Apps you can install, maintained by Big Bear and the Big Bear community. If you scroll down, you'll see a bunch of apps with "BigBearCasaOS" as their listed category. We will be using software from here later.
 
 <img src="../Media_Repository/CasaOS_Apps_4.png" alt="CasaOS Apps 4" title="CasaOS Apps 4" width="40%"/> <img src="../Media_Repository/CasaOS_Apps_5.png" alt="CasaOS Apps 5" title="CasaOS Apps 5" width="40%"/>
+
+9. Repeat Step 8, but this time type `https://casaos-appstore.paodayag.dev/linuxserver.zip` into the bar and press Enter. This will add apps from the Linux Server community.
 
 Now on to the next step. We're going to use [Cloudflared to safely connect your Raspberry Pi to the worldwide web](../Instructions/Cloudflared_Setup_(Web_Connection).md).

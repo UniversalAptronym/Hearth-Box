@@ -83,7 +83,7 @@ Finally, you need to declare your **Pi's local IP address**. This is different f
 
 <img src="../Media_Repository/PuTTY_ssh_config_3.png" alt="PuTTY ssh config 3" title="PuTTY ssh config 3" width="40%"/>
 
-12. Use the `arrow keys` and your keyboard to edit `#ClientAliveInterval 0` to read `ClientAliveInterval 1000000`. This tells your Pi to leave SSH connections open for 1,000,000 seconds (more than a week, i.e. forever) before checking "Hey, are you still there?". Next edit `#ClientAliveCountMax 0` to read `ClientAliveCountMax 3`. This tells your Pi to check if a connection is dropped 3 times before closing a connection.
+12. Use the `arrow keys` and your keyboard to edit `#ClientAliveInterval 0` to read `ClientAliveInterval 1000000`. This tells your Pi to leave SSH connections open for 1,000,000 seconds (more than a week, i.e. forever) before checking "Hey, are you still there?". Next edit `#ClientAliveCountMax 3` to read `ClientAliveCountMax 3`. This tells your Pi to check if a connection is dropped 3 times before closing a connection.
 
 <img src="../Media_Repository/PuTTY_ssh_config_4.png" alt="PuTTY ssh config 4" title="PuTTY ssh config 4" width="40%"/>
 
@@ -97,4 +97,4 @@ Finally, you need to declare your **Pi's local IP address**. This is different f
 
 Your Pi now knows how it's supposed to talk to other devices and you are ready for the next step, where we will finally leave all this terminal business behind! Follow the link below that matches the setup you want.
 
-[Full Home Server](../Instructions/CasaOS_Setup.md) 
+[Click here to continue setting up your Pi's operating system.](../Instructions/CasaOS_Setup.md) 
