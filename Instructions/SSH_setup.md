@@ -97,4 +97,4 @@ Finally, you need to declare your **Pi's local IP address**. This is different f
 
 Your Pi now knows how it's supposed to talk to other devices and you are ready for the next step, where we will finally leave all this terminal business behind! Follow the link below that matches the setup you want.
 
-[Full Home Server](../Instructions/CasaOS_Setup.md) 
+[Click here to continue setting up your Pi's operating system.](../Instructions/CasaOS_Setup.md) 
