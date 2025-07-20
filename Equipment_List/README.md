@@ -53,5 +53,7 @@ Raspberry Pi Zero 2 W. (left) Bare motherboard. (Middle) Motherboard with therma
   - This will allow you to use wired ethernet rather than wireless wifi. This allows for faster and more consistent connection.
 - SD Card USB Adapter (like [this](https://www.amazon.com/Reader-Adapter-Camera-Memory-Wansurs/dp/B0B9QZ4W4Y)) ($5)
   - If your computer does not have an SD card or micro SD card reader, you will need one of these.
+ 
+# __Next Step__
 
 Once you have finished your purchases, you will need to purchase a web URL, which as of 2024 costs \~$10/yr. [Follow the instructions here to do so](../Instructions/Cloudflare_(Web_URL).md).

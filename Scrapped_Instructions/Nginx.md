@@ -1,34 +1,14 @@
-# __Cloudflared + Nginx + Port Forwarding Setup (Connecting Your Pi To The Worldwide Web)__
+## __Cloudflare\_(Web\_URL)__
 
-In this section you will install a Cloudflared tunnel and Nginx Proxy Manager. Each of these will be one component of letting your Hearth Box connect to the wider internet, and is described in greater detail below.
+### __Nginx__
 
-*Author's Note: Tail Scale and Head Scale are programs which can be used in place of Cloudflare for this, removing even that reliance on a potentially untrusted service provide, and we intend to add tutorial options for them at a later date. However these programs are a bit more technically tricky to set up, and morever require technical effort on the part of everyone who wants to connect to your server beyond simply typing in a URL and logging on to your server, so they are not our focus at this time.* 
+Once your system is set up, this URL will take you to part of your device's security interface.
 
-## __Cloudflared__
+In the `subdomain` section, enter **nginx**. In the `domain` section, select your chosen URL from the drop-down list. Under `type` select **HTTP**. Under `URL`, enter your **global IP address** followed by **:81**. It should have the form: **XXX.XXX.XXX.XXX:81**. Click `Save`. Then select your tunnel name to enter the next public hostname.
 
-Cloudflared (note the 'd') is a program which connects your server to a Cloudflare tunnel. This ensures that encrypted information always goes through Cloudflare, where it is properly encrypted and protected from eavesdroppers. [Here is an explanation, if you are curious.](https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/)
+<img src="../Media_Repository/Cloudflare_Public_Hostname_nginx.png" alt="Cloudflare Public Hostname nginx" title="Cloudflare Public Hostname nginx" width="40%"/> <img src="../Media_Repository/Cloudflare_Tunnel_Select.png" alt="Cloudflare Tunnel Select" title="Cloudflare Tunnel Select" width="40%"/> 
 
-1. If you do not already have it open, access your Raspberry Pi by entering its `local IP address` into your web browser. Open the `App Store` button. Navigate to the "Cloudflared" installer either by scrolling down, or typing `cloudlflared` into the search bar. Then click `Install`.
-
-<img src="../Media_Repository/Cloudflared_Install_1.png" alt="Cloudflared Proxy Manager installation 1" title="Cloudflared Proxy Manager installation 1" width="40%"/> <img src="../Media_Repository/Cloudflared_Install_2.png" alt="Cloudflared Proxy Manager installation 2" title="Cloudflared Proxy Manager installation 2" width="40%"/> 
-
-2. This should bring up the following installation window, which you can scroll to see the entirety of. Add your **Raspberry Pi's local IP address** to the leftmost text box under "Web UI". The click `Save`. This tells your server that you want to connect to this program via your local router, not the worldwide web. (You will only be able to access this program from a machine connected to your local router, but that's fine, you only need to use it once.
-
-<img src="../Media_Repository/Cloudflared_Install_3.png" alt="Cloudflared Proxy Manager installation 3" title="Cloudflared Proxy Manager installation 3" width="50%"/>
-
-3. Before beginning, you should have created a text file named `Cloudflare_Tunnel.txt`. Open it. Select all the text within, then press `CTRL + C` (for Linux or Windows) or `CMD + C` (for Mac) to *Copy* the text within.
-
-4. Click the `Cloudflared` program icon. This will open a new tab with your Cloudflared program. Click inside the text box beneath **Enter Tunnel Connector Token:". Then `CTRL + V` (for Linux or Windows) or `CMD + V` (for Mac) to *Paste* the text from `Cloudlflared_Tunnel.txt`.
-
-<img src="../Media_Repository/Cloudflared_Install_4.png" alt="Cloudflared Proxy Manager installation 4" title="Cloudflared Proxy Manager installation 4" width="50%"/> <img src="../Media_Repository/Cloudflared_Install_5.png" alt="Cloudflared Proxy Manager installation 5" title="Cloudflared Proxy Manager installation 5" width="50%"/>
-
-5. Press the `Save` button. It will turn into `Start` button. Press the `Start` button. Close out of the Cloudflared tab and delete `Cloudflared_Tunnel.txt`.
-
-<img src="../Media_Repository/Cloudflared_Install_6.png" alt="Cloudflared Proxy Manager installation 6" title="Cloudflared Proxy Manager installation 6" width="50%"/>
-
-That's it! That's all you have to do with Cloudflared.
-
-Note: If you ever move / get a new router, you may have to refresh your token. Do so by returning to the Tunnel page (see the [Cloudflare section](../Instructions/Cloudflare_(Web_URL).md)), clicking the **3 menu dots** next to your tunnel, clicking **Configure**, clicking **Docker**, and then clicking **Refresh Token**. Then copy the new token, as previously, and open Cloudflared. Press **Stop**, paste the new token, then press **Save** and then **Start**.
+(The information below was based on a misunderstanding of Cloudflared)
 
 ## __Nginx Proxy Manager__
 
@@ -133,14 +113,3 @@ This (almost) makes it so that when you click the "Nginx Proxy Manager" icon on 
 There's just one more thing to do to connect : Port Forwarding.
 
 
-
-
-
-
-
-
-As a gentle introduction to CasaOS, you might want to set up an advertisement / tracker blocker, called Pi-hole, which will block many ads you might otherwise see while browsing the internet. [Click here to install Pi-hole](../Instructions/Pi-hole_Installation.md).
-
-If you want to skip that, you can go straight to installing a [secure communications system and home cloud server using Nextcloud](../Instructions/Nextcloud_Setup_Local.md).
-
-If you want to skip that, you can go straight to installing a [dedicated secure communications system](../Instructions/Databag_Setup_Local.md).

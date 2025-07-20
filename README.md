@@ -2,8 +2,6 @@
 # __About This Project__
 **==================================================**
 
-[Setup and Installation Guide](../../wiki/Setup-and-Installation)
-
 Welcome to the Hearth Box project. Our primary goal is to provide an easy to use and affordable method for oppressed and at-risk groups (such as the LGBT+ community and religious or ethnic minorities) to communicate securely without fear of surveillance, censorship, or government violence. Our secondary goal is to make it easier for people to manage and store their own data online, without relying on expensive and intrusive tech monopolies. This guide will show you how to set up a secure, end-to-end encrypted, self-hosted communication server which includes text, voice, and video chat, and which can be modified to include encrypted, remotely-accessible cloud storage and ad blocking. 
 
 This guide will show you how to set up a "Hearth Box". A Hearth Box is a device you physically own, which hosts a secure, end-to-end encrypted, self-hosted server accessible on the worldwide web. What this means is that you and others can communicate through it via text, voice, and video chat, on your personal computers and mobile devices, without censorship and without anyone intercepting and reading your communications en-route. A Hearth Box also enables cloud storage of your personal data, which likewise cannot be censored or spied on by third parties. Finally, as an extra perk, a Hearth Box can help filter some internet ads which standard ad-blockers may miss.
@@ -46,8 +44,8 @@ We want to make this project accessible to _as many people as possible_, which m
 6. [Image an operating system](Instructions/Raspberry_Pi_Image_Setup.md) onto your Micro SD Card (Secure Communication Only) or your SSD (Full Home Server). These are the storage devices which will hold all the operational software for your equipment.
 7. [Install SSH software](Instructions/SSH_setup.md) (this lets your computer talk to your Raspberry Pi during the installation).
 8. [Log into your Pi and complete the installation, using CasaOS](Instructions/CasaOS_Setup.md).
-9. [Set up Nginx, Cloudflared (not to be confused with Cloudflare), and port-forwarding](Instructions/Cloudflared_Nginx_Setup_(Web_Connection).md), which lets you and others connect to Nextcloud / Databag remotely over the internet.
-10. (For full home server users). Set up your Nextcloud server, for secure communications and cloud storage.
+9. [Set up Cloudflared (not to be confused with Cloudflare)](Instructions/Cloudflared_Setup_(Web_Connection).md), which lets you and others connect to Nextcloud / Databag remotely over the internet.
+10. Set up your Nextcloud server, for secure communications and cloud storage.
 11. Optional: Set up your Databag server, for extra secure communications.
 12. Optional: [Install an advertisement and tracker blocker](Instructions/Pi-hole_Installation.md)
 13. Talk to your friends and say hi to others.
@@ -90,25 +88,10 @@ You will need:
 - **Databag admin password** (this is your administrator password for the secure communication app) 
 
 ### __Recorded information__
-You will also need to record the following information during this installation. 
-
-#### __Offline Recorded Information__
-You should record this information somewhere offline, where you won't lose it.
+You will also need to record the following information during this installation. You should record this information somewhere offline, where you won't lose it.
 - Your Raspberry **Pi's local IP address**
 - Your network **router's local IP address**
 - Your network **router's global IP address**
-
-#### __Temporarily Recorded Information__
-This information will be temporarily stored on your computer, and should be deleted when this setup is finished.
-To prepare you should make:
-- A folder named `Cloudflare_Setup_Files`.
-In this folder you should make
-  - An empty text file named `Cloudflare_Tunnel`.
-  - An empty text file named `Cloudlflare_SSL_Certificate`.
-  - An empty text file named `Cloudlflare_SSL_Private_Key`.
-
-If you do not know how to make new folders or text files, see these guides for doing so with [Windows](Instructions/New_Folder_File_Instructions_(Windows).md) and [Mac](Instructions/New_Folder_File_Instructions_(Mac).md).
-
 
 # __Let's Get Started!__
 
