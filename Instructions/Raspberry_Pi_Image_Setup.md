@@ -7,7 +7,7 @@ For the safety of your electronics, we highly recommend that all power outlets y
 
 ### __Troubleshooting__
 
-When something goes wrong in this section, or the following SSH_Setup and CasaOS_Setup sections, diagnosing the issue can often be tricky. If this happens, we suggest restarting the process from this point. Unplug your Raspberry Pi and disconnect your SSD from it. Plug your SSD back into your computer via a USB port. Open your file browser and find the SSD drive, where you would find a USB drive, then `Format` it ([Windows tutorial](https://www.guidingtech.com/top-5-ways-to-format-a-usb-drive-on-windows-11/))([Apple tutorial](https://support.apple.com/guide/disk-utility/erase-and-reformat-a-storage-device-dskutl14079/mac)) to reset it to a fresh state.
+When something goes wrong in this section, or the following SSH_Setup and CasaOS_Setup sections, diagnosing the issue can often be tricky. If this happens, we suggest restarting the process from this point. Unplug your Raspberry Pi and disconnect your SSD from it. Restart the process from this point.
  
 # __Full Home Server__
 
