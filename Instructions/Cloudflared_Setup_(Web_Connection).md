@@ -65,7 +65,7 @@ What you do next depends on whether you are setting up a full home server or onl
 
 This will take you to your Raspberry Pi homepage, the same webpage you accessed in Step 1 by entering your **Raspberry Pi's local IP address**, but it will do so from anywhere in the world.
 
-In the "subdomain" section, enter **nextcloud**. In the "domain" section, select your chosen URL from the drop-down list. Under "type" select `HTTP`. Under "URL", enter your **Raspberry Pi's local IP address** followed by `:80`. It should have the form: `XXX.XXX.XXX.XXX:80`. Click `Save`. Then select your tunnel name to enter the next public hostname.
+In the "subdomain" section, enter `home`. In the "domain" section, select your chosen URL from the drop-down list. Under "type" select `HTTP`. Under "URL", enter your **Raspberry Pi's local IP address** followed by `:80`. It should have the form: `XXX.XXX.XXX.XXX:80`. Click `Save`. Then select your tunnel name to enter the next public hostname.
 
 <img src="../Media_Repository/Cloudflare_Public_Hostname_homepage.png" alt="Cloudflare Public Hostname Homepage" title="Cloudflare Public Hostname Homepage" width="40%"/> <img src="../Media_Repository/Cloudflare_Tunnel_Select.png" alt="Cloudflare Tunnel Select" title="Cloudflare Tunnel Select" width="50%"/> 
 
@@ -75,7 +75,7 @@ Note: ":80" represents the standard internet "port" which webpages use for unenc
 
 Once your system is set up, this URL will take you to your new cloud server, which will host a communication hub and cloud storage system where you can back up and share files.
 
-In the "subdomain" section, enter **nextcloud**. In the "domain" section, select your chosen URL from the drop-down list. Under "type" select `HTTP`. Under "URL", enter your **Raspberry Pi's local IP address** followed by `:7580`. It should have the form: `XXX.XXX.XXX.XXX:7580`. Click `Save`. Then select your tunnel name to enter the next public hostname.
+In the "subdomain" section, enter `nextcloud`. In the "domain" section, select your chosen URL from the drop-down list. Under "type" select `HTTP`. Under "URL", enter your **Raspberry Pi's local IP address** followed by `:7580`. It should have the form: `XXX.XXX.XXX.XXX:7580`. Click `Save`. Then select your tunnel name to enter the next public hostname.
 
 <img src="../Media_Repository/Cloudflare_Public_Hostname_nextcloud.png" alt="Cloudflare Public Hostname Nextcloud" title="Cloudflare Public Hostname Nextcloud" width="40%"/> <img src="../Media_Repository/Cloudflare_Tunnel_Select.png" alt="Cloudflare Tunnel Select" title="Cloudflare Tunnel Select" width="50%"/> 
 
@@ -85,7 +85,7 @@ Note: Technically you can use any open port number for Nextcloud, not just ":758
 
 Once your system is set up, this URL will take you to a secondary secure communication hub.
 
-In the "subdomain" section, enter **databag**. In the "domain" section, select your chosen URL from the drop-down list. Under "type" select `HTTP`. Under "URL", enter your **Raspberry Pi's local IP address** followed by `:7000`. It should have the form: `XXX.XXX.XXX.XXX:7000`. Click `Save`. Then select your tunnel name to enter the next public hostname.
+In the "subdomain" section, enter `databag`. In the "domain" section, select your chosen URL from the drop-down list. Under "type" select `HTTP`. Under "URL", enter your **Raspberry Pi's local IP address** followed by `:7000`. It should have the form: `XXX.XXX.XXX.XXX:7000`. Click `Save`. Then select your tunnel name to enter the next public hostname.
 
 <img src="../Media_Repository/Cloudflare_Public_Hostname_databag.png" alt="Cloudflare Public Hostname Databag" title="Cloudflare Public Hostname Databag" width="40%"/> <img src="../Media_Repository/Cloudflare_Tunnel_Select.png" alt="Cloudflare Tunnel Select" title="Cloudflare Tunnel Select" width="50%"/> 
 
@@ -95,7 +95,7 @@ Note: Technically you can use any open port number for Databag, not just ":7000"
 
 Once your system is set up, this URL will take you to the control panel for an adblocker which will reduce the number of ads for all devices on your internet.
 
-In the "subdomain" section, enter **pihole**. In the "domain" section, select your chosen URL from the drop-down list. Under "type" select `HTTP`. Under "URL", enter your **Raspberry Pi's local IP address** followed by `:8080`. It should have the form: `XXX.XXX.XXX.XXX:8080`. Click `Save`. 
+In the "subdomain" section, enter `pihole`. In the "domain" section, select your chosen URL from the drop-down list. Under "type" select `HTTP`. Under "URL", enter your **Raspberry Pi's local IP address** followed by `:8080`. It should have the form: `XXX.XXX.XXX.XXX:8080`. Click `Save`. 
 
 <img src="../Media_Repository/Cloudflare_Public_Hostname_pihole.png" alt="Cloudflare Public Hostname Pihole" title="Cloudflare Public Hostname Pihole" width="40%"/> <img src="../Media_Repository/Cloudflare_Tunnel_Select.png" alt="Cloudflare Tunnel Select" title="Cloudflare Tunnel Select" width="40%"/>
 
