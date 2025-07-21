@@ -15,6 +15,7 @@ Cloudflared (note the 'd') is a program which connects your server to a Cloudfla
 
 2. This should bring up the following installation window, which you can scroll to see the entirety of. If it does not, scroll over the "Cloudflared" App and click the three dots which appear, then click Settings. Add your **Raspberry Pi's local IP address** to the leftmost text box under "Web UI". The click `Save`. This tells your server that you want to connect to this program via your local router, not the worldwide web. (You will only be able to access this program from a machine connected to your local router, but that's fine, you only need to use it once.
 
+<img src="../Media_Repository/Cloudflared_Alt_Settings.png" alt="Cloudflared Proxy Manager installation alt settings access" title="Cloudflared Proxy Manager alt settings access" width="30%"/> 
 <img src="../Media_Repository/Cloudflared_Install_3.png" alt="Cloudflared Proxy Manager installation 3" title="Cloudflared Proxy Manager installation 3" width="50%"/>
 
 Leave this webpage open in the background during the next steps, you will be returning to it shortly.
