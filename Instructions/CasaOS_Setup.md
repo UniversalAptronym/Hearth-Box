@@ -12,7 +12,7 @@ Note: Terminal windows often do not accept `ctrl+v` commands to paste content. I
 
 <img src="https://imgs.xkcd.com/comics/dependency.png" alt="XKCD 2347: Dependency" title="XKCD 2347: Dependency" width="40%"/>
 
-2. Type `curl -fsSL https://get.casaos.io/update | bash` then press Enter. This will update CasaOS.
+2. Type `curl -fsSL https://get.casaos.io/update | sudo bash` then press Enter. This will update CasaOS.
 
 3. This is the end of your time with terminal! In the final lines of CasaOS's installation output, you should see **- http://XXX.XXX.XXX.XXX (eth0)**. The **XXX.XXX.XXX.XXX** should be the same as the **local IP address** you gave to your Pi and recorded in the previous section. (Remember that **XXX** represents 1-3 digits, and **(eth0)** may be **(wlan0)** if you opted for a non-ethernet connection.) 
 
