@@ -41,11 +41,13 @@ Finally, you need to declare your **Pi's local IP address**. This is different f
 
 <img src="../Media_Repository/PuTTY_ip_neighbor.png" alt="PuTTY ip neighbor" title="PuTTY PuTTY ip neighbor" width="50%"/>
 
-6. type `sudo nmtui` and press Enter. This will take you to the Network Manager Tool User Interface, and you should see `Edit a Connection` highlighted in red. Press Enter to select it. Next, use the `right arrow key` to move your selection over to `Add` and press enter again.
+Steps 6 and 7 depend on if you are using a wired ethernet connection to connect your Raspberry Pi to your internet router (recommended!), or using a wireless wifi connection. If you physically plugged your Pi into your router during the [Raspberry Pi Assembly step](../Instructions/Raspberry_Pi_Assembly.md), you are using a wired ethernet connection. 
+
+6. Type `sudo nmtui` and press Enter. This will take you to the Network Manager Tool User Interface, and you should see `Edit a Connection` highlighted in red. Press Enter to select it. Next, use the `right arrow key` to move your selection over to buttons on the right. If there is no connection present beneath "Ethernet" / "Wi-Fi" (depending on your choice above), move your selection over `<Add>` and press Enter. If there is a connection present beneath "Ethernet" / "Wi-Fi", move your selection over `<Edit ...>` and press Enter.
 
 <img src="../Media_Repository/PuTTY_nmtui_0.png" alt="PuTTY nmtui commands 0" title="PuTTY nmtui commands 0" width="30%"/> <img src="../Media_Repository/PuTTY_nmtui_1.png" alt="PuTTY nmtui commands 1" title="PuTTY nmtui commands 1" width="30%"/> <img src="../Media_Repository/PuTTY_nmtui_2.png" alt="PuTTY nmtui commands 2" title="PuTTY nmtui commands 2" width="30%"/>
 
-7. This next step depends on if you are using a wired ethernet connection to connect your Raspberry Pi to your internet router (recommended!), or using a wireless wifi connection. If you plugged your Pi into your router during the [Raspberry Pi Assembly step](../Instructions/Raspberry_Pi_Assembly.md), you are using a wired ethernet connection. Use the `up/down arrow keys` to select `Ethernet` or `Wi-Fi`, depending on your choice, and press Enter.
+7. Use the `up/down arrow keys` to select `Ethernet` or `Wi-Fi`, depending on your choice, and press Enter.
 
 <img src="../Media_Repository/PuTTY_nmtui_3.png" alt="PuTTY nmtui commands 3" title="PuTTY nmtui commands 3" width="40%"/> 
 
@@ -91,9 +93,11 @@ Finally, you need to declare your **Pi's local IP address**. This is different f
 
 <img src="../Media_Repository/PuTTY_ssh_config_5.png" alt="PuTTY ssh config 5" title="PuTTY ssh config 5" width="40%"/> <img src="../Media_Repository/PuTTY_ssh_config_6.png" alt="PuTTY ssh config 6" title="PuTTY ssh config 6" width="40%"/>
 
-14. Finally, type `sudo systemctl reload ssh` and press Enter. This tells your Pi to apply the new SSH settings.
+14. Next, type `sudo systemctl reload ssh` and press Enter. This tells your Pi to apply the new SSH settings.
 
 <img src="../Media_Repository/PuTTY_ssh_config_7.png" alt="PuTTY ssh config 7" title="PuTTY ssh config 7" width="40%"/>
+
+15. Finally, type `sudo systemctl reboot` and press Enter. This tells your Pi to reboot to apply the new Ethernet / Wi-Fi connection settings from step 8. It will also terminate your connection with your Raspberry Pi. Wait a few moments for your Pi to reboot, then repeat Step 2 to reconnect with your Pi.
 
 Your Pi now knows how it's supposed to talk to other devices and you are ready for the next step, where we will finally leave all this terminal business behind! Follow the link below that matches the setup you want.
 
