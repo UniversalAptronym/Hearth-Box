@@ -10,6 +10,7 @@ Cloudflared (note the 'd') is a program which connects your server to a Cloudfla
 
 1. If you do not already have it open, access your Raspberry Pi by entering its **local IP address** into your web browser. Open the `App Store` button. Navigate to the "Cloudflared" installer either by scrolling down, or typing `cloudlflared` into the search bar. Then click `Install`.
 - In rare cases the default Developer apps are absent due to a mismatch between the date-time on your Pi and the CasaOS servers. If this happens, use PuTTY to reopen the command terminal, then type in `sudo timedatectl set-ntp off` and press Enter. Then type `sudo timedatectl set-ntp on` and press Enter. This resets your Pi's date-time. Then type `sudo systemctl reboot` to restart your Pi.
+- In even rarer cases, default apps like Cloudflared simply don't show up immediately. If that's the case, leaving your Pi and coming back a day or two later may see Cloudflared show up in your App Store.
 
 <img src="../Media_Repository/Cloudflared_Install_1.png" alt="Cloudflared Proxy Manager installation 1" title="Cloudflared Proxy Manager installation 1" width="40%"/> <img src="../Media_Repository/Cloudflared_Install_2.png" alt="Cloudflared Proxy Manager installation 2" title="Cloudflared Proxy Manager installation 2" width="40%"/> 
 
