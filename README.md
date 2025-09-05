@@ -4,7 +4,7 @@
 
 Welcome to the Hearth Box project. Our primary goal is to provide an easy to use and affordable method for oppressed and at-risk groups (such as the LGBT+ community and religious or ethnic minorities) to communicate securely without fear of surveillance, censorship, or government violence. Our secondary goal is to make it easier for people to manage and store their own data online, without relying on expensive and intrusive tech monopolies. This guide will show you how to set up a secure, end-to-end encrypted, self-hosted communication server which includes text, voice, and video chat, and which can be modified to include encrypted, remotely-accessible cloud storage and ad blocking. 
 
-Welcome to the Hearth Box project. Our primary goal is to provide an easy-to-use and affordable method for oppressed and at-risk groups (such as the LGBT+ community and religious or ethnic minorities) to communicate securely without fear of surveillance, censorship, or government violence. Our secondary goal is to make it easier for people to manage and store their own data online without relying on expensive and intrusive tech monopolies. This guide will show you how to assemble and set up a secure, end-to-end encrypted, self-hosted communication server which includes text, voice, and video chat, and which can be modified to include encrypted, remotely-accessible cloud storage and ad blocking.
+This guide will show you how to set up a "Hearth Box". A Hearth Box is a device you physically own, which hosts a secure, end-to-end encrypted, self-hosted server accessible on the worldwide web. What this means is that you and others can communicate through it via text, voice, and video chat, on your personal computers and mobile devices, without censorship and without anyone intercepting and reading your communications en-route. A Hearth Box also enables cloud storage of your personal data, which likewise cannot be censored or spied on by third parties. Finally, as an extra perk, a Hearth Box can help filter some internet ads which standard ad-blockers may miss.
 
 (left) An example of a Hearth Box. (right) An example of one of the communication platforms hosted on a Hearth Box
 
@@ -52,13 +52,13 @@ We want to make this project accessible to _as many people as possible_, which m
 
 # __Usernames and Passwords__
 
-Before you start, you should to decide on certain usernames, passcodes, etc. You will need these later, and they are very important for your security. You should also decide on a URL for your Hearth Box.
+Before you start, you should to decide on the usernames, passwords, and emails you will use to log in to certain programs. You will need these later, and they are very important for your security. You should also decide on the URL for your Hearth Box.
 
- **Warning:** Make sure these are usernames and passwords you can remember and which do not rely on simple patterns. If you absolutely must write them down, store them in a secure *offline* location. None of these passwords should be a copy of other passwords you use.
- 
- **Warning:** None of these usernames or passwords should be the same as other usernames or passwords you use.
- 
- You will need:
+**Warning:** Make sure these are usernames and passwords you can remember and which do not rely on simple patterns. If you absolutely must write them down, store them in a secure *offline* location.
+
+**Warning:** None of these usernames or passwords should be the same as other usernames or passwords you use.
+
+You will need:
 
 ## __For regular use__
  **Warning:** This is publically visible. *It should not match any usernames, passwords, or emails below*.
