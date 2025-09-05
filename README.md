@@ -2,25 +2,21 @@
 # __About This Project__
 **==================================================**
 
-Welcome to the Hearth Box project. Our primary goal is to provide an easy to use and affordable method for oppressed and at-risk groups (such as the LGBT+ community and religious or ethnic minorities) to communicate securely without fear of surveillance, censorship, or government violence. Our secondary goal is to make it easier for people to manage and store their own data online, without relying on expensive and intrusive tech monopolies. This guide will show you how to set up a secure, end-to-end encrypted, self-hosted communication server which includes text, voice, and video chat, and which can be modified to include encrypted, remotely-accessible cloud storage and ad blocking. 
-
-Welcome to the Hearth Box project. Our primary goal is to provide an easy-to-use and affordable method for oppressed and at-risk groups (such as the LGBT+ community and religious or ethnic minorities) to communicate securely without fear of surveillance, censorship, or government violence. Our secondary goal is to make it easier for people to manage and store their own data online without relying on expensive and intrusive tech monopolies. This guide will show you how to assemble and set up a secure, end-to-end encrypted, self-hosted communication server which includes text, voice, and video chat, and which can be modified to include encrypted, remotely-accessible cloud storage and ad blocking.
+Welcome to the Hearth Box project. Our primary goal is to provide an easy-to-use and affordable method for oppressed and at-risk groups (such as the LGBT+ community and religious or ethnic minorities) to communicate securely without fear of surveillance, censorship, or government violence. Our secondary goal is to make it easier for people to manage and store their own data online, without relying on expensive and intrusive tech monopolies. This guide will show you how to set up a secure, end-to-end encrypted, self-hosted communication server which includes text, voice, and video chat, and which can be modified to include encrypted, remotely-accessible cloud storage, and ad blocking.
 
 (left) An example of a Hearth Box. (right) An example of one of the communication platforms hosted on a Hearth Box
 
 <img src="Media_Repository/Raspberry_Pi_5_and_SSD_enclosed.jpg" alt="Enclosed Pi 5 and SSD" title="Enclosed Pi 5 and SSD" width="40%"/> <img src="Media_Repository/Nextcloud_Talk_Example.png" alt="Nextcloud talk example" title="Nextcloud talk example" width="50%"/> 
 
-Our primary goal is to provide an *easy to use* and affordable method for oppressed and at-risk groups (such as the LGBT+ community and religious or ethnic minorities) to communicate securely without fear of surveillance, censorship, or government violence. Our secondary goal is to make it easier for people to manage and store their own data online, without relying on expensive and intrusive tech monopolies. We have written these documents with ease of access in mind and they intended to be accessible even by those with little to no technical expertise. This guide will show you how to set up a "Hearth Box" secure, end-to-end encrypted, self-hosted server (i.e. information sent through this server en-route by anyone other than their intended recipients) using hardware you physically possess, which enables text, voice, and video chat, and also remotely-accessible cloud storage and ad blocking. 
+The server on a Hearth Box facilitates communication which is much more difficult for governments or malicious actors to surveil than other methods like texting, Facebook Messenger, Instagram, WhatsApp, or Discord. While we suggest the [Signal app](https://signal.org/#signal) as an easier-to-use alternative for secure, end-to-end encrypted communication, it is blocked in some countries as of 2025, (such as [Russia, Venezuela,](https://www.theverge.com/2024/8/9/24217008/signal-blocked-venezuela-russia) [China, and Iran](https://www.techradar.com/news/china-blocks-signal-heres-what-you-need-to-know)). This can be circumvented by a virtual private network (VPN), but those services are often restricted by government censorship as well. Additionally, [some member states in the EU are trying to pass a bill while would allow them to scan every message you send, encrypted or not, on commercial platforms](https://www.techradar.com/computing/cyber-security/the-eu-could-be-scanning-your-chats-by-october-2025-heres-everything-we-know).
 
-The server on a Hearth Box facilitates communication which is much more difficult for governments or malicious actors to surveil than other methods like texting, Facebook Messenger, Instagram, WhatsApp, or Discord. While we suggest the [Signal app](https://signal.org/#signal) as an easier-to-use alternative for secure, end-to-end encrypted communication, it is blocked in some countries as of 2025, (such as [Russia, Venezuela,](https://www.theverge.com/2024/8/9/24217008/signal-blocked-venezuela-russia) [China, and Iran](https://www.techradar.com/news/china-blocks-signal-heres-what-you-need-to-know)). This can be circumvented by a virtual private network (VPN), but those services are often restricted by government censorship as well.
-
-While no form of digital communication is definitively secure, encrypted self-hosted communication systems are far more difficult to usefully surveil, interfere with, or ban. Using self-hosted servers to communicate is infinitely more secure than communicating with programs like WhatsApp or Discord, which can read your messages and which regularly cooperate with governments' requests to access users' messages and other data. However, a self-hosted server will not protect you from [FBI spyware installed directly on your computer](https://www.nbcnews.com/id/wbna3341694), if that is used to gain access to your usernames and passwords. When discussing private information online, remember that the best security is always caution and nothing is foolproof.
+While no form of digital communication is definitively secure, encrypted self-hosted communication systems are far more difficult to usefully surveil, interfere with, or ban. Using self-hosted servers to communicate is infinitely more secure than communicating with programs like WhatsApp or Discord, which can read your messages and which regularly cooperate with governments' requests to access users' messages and other data. However, a self-hosted server will not protect you from things like [FBI spyware installed directly on your computer](https://www.nbcnews.com/id/wbna3341694), if that is used to gain access to your usernames and passwords. When discussing private information online, remember that the best security is always caution and nothing is foolproof.
 
 So, should you build a Hearth Box? It depends. If you're a member of an at-risk group, this system could provide a substantial boost to your safety. If you live in the United States and you or someone you know is part of the LGBT+ community, you might consider building a server to insulate yourself from spying by the federal government, since the [Department of Homeland Security will surveil people based solely on their sexual orientation or gender identity](https://www.advocate.com/politics/dhs-allows-surveillance-sexual-orientation). If you pay monthly fees for cloud storage services such as Google Drive, iCloud, or Dropbox, or for encrypted telecommunication services such as Doxy.me or Zoom Business, building a home server may be cheaper for you in the long run. Finally, as an extra perk, a Hearth Box can help filter some internet ads which standard ad-blockers may miss.
 
-If you are not part of an at-risk group and don't know anyone who is, you are not paying for cloud or communication services, and you don't care about ads, you may still want to consider self-hosting on privacy grounds. Most major communication programs are neither secure nor private, and often sell your data or give it to the police without a warrant. Most online file-storage programs (such as Google Drive, Microsoft OneDrive, and Adobe Creative Cloud storage) store your files unencrypted, and some even sell private information from them to advertisers or use the files you store on them to train AI models. If you, like us, consider this a gross invasion of privacy, then you should consider building a Hearth Box.
+If you are not part of an at-risk group and don't know anyone who is, you are not paying for cloud or communication services, and you don't care about ads, you may still want to consider self-hosting on privacy grounds. Most major communication programs are neither secure nor private, and often sell your data to anyone or give it to the police without a warrant. Most online file-storage programs (such as Google Drive, Microsoft OneDrive, and Adobe Creative Cloud storage) store your files unencrypted, and some even sell private information from them to advertisers or use the files you store on them to train AI models. If you, like us, consider this a gross invasion of privacy, then you should consider building a Hearth Box.
 
-*Authors' note, 18 May 2025: This is a new project, and therefore a work in progress. Much of the content is missing from this guide. Please be patient while we fill it out.*
+*Authors' note, 5 September 2025: This project is a work in progress, and we're still developing a lot of the content for it. We appreciate your patience while we fill it out.*
 
 # __Instructions__
 
@@ -52,7 +48,7 @@ We want to make this project accessible to _as many people as possible_, which m
 
 # __Usernames and Passwords__
 
-Before you start, you should to decide on certain usernames, passcodes, etc. You will need these later, and they are very important for your security. You should also decide on a URL for your Hearth Box.
+Before you start, you should to decide on the usernames and passwords that you'll use to login to your Hearth Box and its systems. You will need these later, and they are very important for your security. You should also decide on a URL for your Hearth Box.
 
  **Warning:** Make sure these are usernames and passwords you can remember and which do not rely on simple patterns. If you absolutely must write them down, store them in a secure *offline* location. None of these passwords should be a copy of other passwords you use.
  
@@ -61,31 +57,31 @@ Before you start, you should to decide on certain usernames, passcodes, etc. You
  You will need:
 
 ## __For regular use__
- **Warning:** This is publically visible. *It should not match any usernames, passwords, or emails below*.
+ **Warning:** The Web URL for your Hearth box is publically visible. *It should not match any usernames, passwords, or emails below. It should also not match any usernames, passwords, or emails which you use for anything else.*
  
-- **Web URL** (this is the URL you and others will use to access your Pi's services) **(IMPORTANT: This is publically visible and SHOULD NOT MATCH ANY USERNAMES BELOW)**
+- **Web URL** (This is the URL you and others will use to access your Pi's services)
 
-- **CasaOS username** (this is the username you use to log into your Pi through a web browser)
-- **CasaOS password** (this is the password you use to log into your Pi through a web browser)
-- **Nextcloud username** (this is the username you use to log into your home server storage, and an alternative secure communication service)
-- **Nextcloud password** (this is the password you use to log into your home server storage, and an alternative secure communication service)
+- **CasaOS username** (This is the username you use to log into your Pi through a web browser)
+- **CasaOS password** (This is the password you use to log into your Pi through a web browser)
+- **Nextcloud username** (This is the username you use to log into your home server storage, and an alternative secure communication service)
+- **Nextcloud password** (This is the password you use to log into your home server storage, and an alternative secure communication service)
 
 ### __Optional: For Databag, a secure communication app which is clunkier than Nextcloud but has better operational security__
-- **Databag username** (this is your username for the secure communication app) (Important: Do not ever set your browser to autocomplete this username)
-- **Databag password** (this is your password for the secure communication app) (Important: Do not ever set your browser to autocomplete this password)
+- **Databag username** (This is your username for the secure communication app) (Important: Do not ever set your browser to autocomplete this username)
+- **Databag password** (This is your password for the secure communication app) (Important: Do not ever set your browser to autocomplete this password)
 
 ## __For regular use - Full Home Server Only__
 
 ### __Usernames and passwords you'll need during installation or for changing your system later__
 **IMPORTANT:** None of these passwords should be the same as the others! 
 - **Raspberry Pi hostname** (`hostname`.local is the name your Pi goes by when your computer talks to it) 
-- **Raspberry Pi username** (this is the username you use to log into your Pi through the terminal) (if you don't know what that is yet, don't worry)
-- **Raspberry Pi password** (this is the password you use to log into your Pi through the terminal)
-- **Cloudflare email** (this is the email you use for a free account with a service which lets you receive and manage your web URL)
-- **Cloudflare password** (this is the password you use to receive and manage your web URL)
-- **Nginx email** (this is the email you use for a free account with a service which lets you send your computer passwords without other people intercepting them)
-- **Nginx password** (this is the password you use for a free account with a service which lets you send your computer passwords without other people intercepting them) 
-- **Databag admin password** (this is your administrator password for the secure communication app) 
+- **Raspberry Pi username** (This is the username you use to log into your Pi through the terminal) (if you don't know what that is yet, don't worry)
+- **Raspberry Pi password** (This is the password you use to log into your Pi through the terminal)
+- **Cloudflare email** (This is the email you use for a free account with a service which lets you receive and manage your web URL)
+- **Cloudflare password** (This is the password you use to receive and manage your web URL)
+- **Nginx email** (This is the email you use for a free account with a service which lets you send your computer passwords without other people intercepting them)
+- **Nginx password** (This is the password you use for a free account with a service which lets you send your computer passwords without other people intercepting them) 
+- **Databag admin password** (This is your administrator password for the secure communication app) 
 
 ### __Recorded information__
 You will also need to record the following information during this installation. You should record this information somewhere offline, where you won't lose it.
