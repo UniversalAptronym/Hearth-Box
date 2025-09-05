@@ -17,7 +17,7 @@ Note: Terminal windows often do not accept `ctrl+v` commands to paste content. I
 
 <img src="../Media_Repository/PuTTY_screen.png" alt="PuTTY login screen" title="PuTTY login screen" width="40%"/>
 
-2. Press `Open` at the bottom of the PuTTY screen. This will open a mostly black window with only text, saying `login as:`. This is known as the "terminal" window, which is used to give commands to computers using text inputs. Enter your **Pi username** and press Enter. Enter your **Pi password** (no text will appear as you type, as a security measure) and press Enter.
+2. Press `Open` at the bottom of the PuTTY screen. This will open a mostly black window with only text, saying `login as:`. This is known as the "terminal" window, which is used to give commands to computers using text inputs. Enter your **Pi username** and press Enter. Enter your **Pi password** (no text will appear as you type, as a security measure) and press Enter. (Note: You can use use the backspace key to delete text despite the lack of visible text input.)
   - If this works, some more text will appear and the bottom line will read `[exampleHostame].[exampleUsername]:~ $`. This means your computer is speaking to a machine named `exampleHostname` (this is your Pi), and you are logged in as `[exampleUsername]`. Additionally, the `~` means you are accessing the home directory of your Pi, and the `$` means you are a normal user.
   - If you get a black screen without text, your Pi is probably not finished setting up. Exit the screen and try again in a few minutes.
   - If you get an error message, particularly anything about a software error, you probably got your wifi details wrong in the previous step.
@@ -41,11 +41,13 @@ Finally, you need to declare your **Pi's local IP address**. This is different f
 
 <img src="../Media_Repository/PuTTY_ip_neighbor.png" alt="PuTTY ip neighbor" title="PuTTY PuTTY ip neighbor" width="50%"/>
 
-6. type `sudo nmtui` and press Enter. This will take you to the Network Manager Tool User Interface, and you should see `Edit a Connection` highlighted in red. Press Enter to select it. Next, use the `right arrow key` to move your selection over to `Add` and press enter again.
+Steps 6 and 7 depend on if you are using a wired ethernet connection to connect your Raspberry Pi to your internet router (recommended!), or using a wireless wifi connection. If you physically plugged your Pi into your router during the [Raspberry Pi Assembly step](../Instructions/Raspberry_Pi_Assembly.md), you are using a wired ethernet connection. 
+
+6. Type `sudo nmtui` and press Enter. This will take you to the Network Manager Tool User Interface, and you should see `Edit a Connection` highlighted in red. Press Enter to select it. Next, use the `right arrow key` to move your selection over to buttons on the right. If there is no connection present beneath "Ethernet" / "Wi-Fi" (depending on your choice above), move your selection over `<Add>` and press Enter. If there is a connection present beneath "Ethernet" / "Wi-Fi", move your selection over `<Edit ...>` and press Enter.
 
 <img src="../Media_Repository/PuTTY_nmtui_0.png" alt="PuTTY nmtui commands 0" title="PuTTY nmtui commands 0" width="30%"/> <img src="../Media_Repository/PuTTY_nmtui_1.png" alt="PuTTY nmtui commands 1" title="PuTTY nmtui commands 1" width="30%"/> <img src="../Media_Repository/PuTTY_nmtui_2.png" alt="PuTTY nmtui commands 2" title="PuTTY nmtui commands 2" width="30%"/>
 
-7. This next step depends on if you are using a wired ethernet connection to connect your Raspberry Pi to your internet router (recommended!), or using a wireless wifi connection. If you plugged your Pi into your router during the [Raspberry Pi Assembly step](../Instructions/Raspberry_Pi_Assembly.md), you are using a wired ethernet connection. Use the `up/down arrow keys` to select `Ethernet` or `Wi-Fi`, depending on your choice, and press Enter.
+7. Use the `up/down arrow keys` to select `Ethernet` or `Wi-Fi`, depending on your choice, and press Enter.
 
 <img src="../Media_Repository/PuTTY_nmtui_3.png" alt="PuTTY nmtui commands 3" title="PuTTY nmtui commands 3" width="40%"/> 
 
@@ -53,7 +55,8 @@ Finally, you need to declare your **Pi's local IP address**. This is different f
 
 <img src="../Media_Repository/PuTTY_nmtui_4.png" alt="PuTTY nmtui commands 4" title="PuTTY nmtui commands 4" width="40%"/> <img src="../Media_Repository/PuTTY_nmtui_5.png" alt="PuTTY nmtui commands 5" title="PuTTY nmtui commands 5" width="40%"/>
   
-  - `Addresses`: Highlight `<Add...>` and press Enter. Type the first three parts of your **router's local IP address**, with a period **.** after each part. This will be of the form: **XXX.XXX.XXX.**, where each **XXX** can be 1, 2, or 3 digits. Now check your list of "neighboring" device numbers from step 5, and type in any number from **1-999** which is not on that list. (You do not need to press Enter after this.) 
+  - `Addresses`: Highlight `<Add...>` and press Enter. Type the first three parts of your **router's local IP address**, with a period **.** after each part. This will be of the form: **XXX.XXX.XXX.**, where each **XXX** can be 1, 2, or 3 digits. Now check your list of "neighboring" device numbers from step 5, and type in any number from **1 to 999** which is not on that list. (You do not need to press Enter after this.)
+  - Tip: In households with many internet devices, to be extra safe with overlapping IP addresses, pick a number which is 20+ higher than the highest neighboring device number.
 
 <img src="../Media_Repository/PuTTY_nmtui_6.png" alt="PuTTY nmtui commands 6" title="PuTTY nmtui commands 6" width="40%"/> <img src="../Media_Repository/PuTTY_nmtui_7.png" alt="PuTTY nmtui commands 7" title="PuTTY nmtui commands 7" width="40%"/>
 
@@ -82,7 +85,7 @@ Finally, you need to declare your **Pi's local IP address**. This is different f
 
 <img src="../Media_Repository/PuTTY_ssh_config_3.png" alt="PuTTY ssh config 3" title="PuTTY ssh config 3" width="40%"/>
 
-12. Use the `arrow keys` and your keyboard to edit `#ClientAliveInterval 0` to read `ClientAliveInterval 1000000`. This tells your Pi to leave SSH connections open for 1,000,000 seconds (more than a week, i.e. forever) before checking "Hey, are you still there?". Next edit `#ClientAliveInterval 0` to read `ClientAliveCountMax 3`. This tells your Pi to check if a connection is dropped 3 times before closing a connection.
+12. Use the `arrow keys` and your keyboard to edit `#ClientAliveInterval 0` to read `ClientAliveInterval 1000000`. This tells your Pi to leave SSH connections open for 1,000,000 seconds (more than a week, i.e. forever) before checking "Hey, are you still there?". Next edit `#ClientAliveCountMax 3` to read `ClientAliveCountMax 3`. This tells your Pi to check if a connection is dropped 3 times before closing a connection.
 
 <img src="../Media_Repository/PuTTY_ssh_config_4.png" alt="PuTTY ssh config 4" title="PuTTY ssh config 4" width="40%"/>
 
@@ -90,12 +93,12 @@ Finally, you need to declare your **Pi's local IP address**. This is different f
 
 <img src="../Media_Repository/PuTTY_ssh_config_5.png" alt="PuTTY ssh config 5" title="PuTTY ssh config 5" width="40%"/> <img src="../Media_Repository/PuTTY_ssh_config_6.png" alt="PuTTY ssh config 6" title="PuTTY ssh config 6" width="40%"/>
 
-14. Finally, type `sudo systemctl reload ssh` and press Enter. This tells your Pi to apply the new SSH settings.
+14. Next, type `sudo systemctl reload ssh` and press Enter. This tells your Pi to apply the new SSH settings.
 
 <img src="../Media_Repository/PuTTY_ssh_config_7.png" alt="PuTTY ssh config 7" title="PuTTY ssh config 7" width="40%"/>
 
+15. Finally, type `sudo systemctl reboot` and press Enter. This tells your Pi to reboot to apply the new Ethernet / Wi-Fi connection settings from step 8. It will also terminate your connection with your Raspberry Pi. Wait a few moments for your Pi to reboot, then repeat Step 2 to reconnect with your Pi.
+
 Your Pi now knows how it's supposed to talk to other devices and you are ready for the next step, where we will finally leave all this terminal business behind! Follow the link below that matches the setup you want.
 
-[Full Home Server](../Instructions/CasaOS_Setup.md) 
-
-Secure Communication Only
+[Click here to continue setting up your Pi's operating system.](../Instructions/CasaOS_Setup.md) 
