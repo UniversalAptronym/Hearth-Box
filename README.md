@@ -95,4 +95,9 @@ You will also need to record the following information during this installation.
 
 # __Let's Get Started!__
 
+Note about notation:
+ - Text surrounded by square brackets \[like this\] indicates example text which should be replaced by something specific when you write it. You should also remove the square brackets when doing so.
+ - Text which appears in bold **like this** refers to information you should have recorded somewhere. For example, **Raspberry Pi hostname** refers to the hostname you selected for your Raspberry Pi above.
+ - Text which appears highlighted `like this` refers to user inputs you must take, such as the name of a button you must push or text you must enter.
+
 Click [here](Equipment_List/README.md) to begin your self-hosting journey!
