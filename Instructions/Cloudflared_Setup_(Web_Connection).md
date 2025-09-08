@@ -56,7 +56,7 @@ Note: If you ever move / get a new router, you may have to refresh your token. D
 
 6. Finally, return to the Cloudflare webpage, scroll down, and click `Next` at the bottom of the page. This will take you to the page pictured below.
   
-**Note:** You will return to this page multiple times. Depending on what part of the process you're at, the `Save` button will either say `Save Tunnel` or `Save Hostname`.
+Note: You will return to this page multiple times. Depending on what part of the process you're at, the `Save` button will either say `Save Tunnel` or `Save Hostname`.
 
 <img src="../Media_Repository/Cloudflare_Public_Hostname_0.png" alt="Cloudflare Public Hostname Blank" title="Cloudflare Public Hostname Blank" width="50%"/>
 
@@ -82,7 +82,7 @@ In the "subdomain" section, enter `nextcloud`. In the "domain" section, select y
 
 Note: Technically you can use any open port number for Nextcloud, not just ":7580". However, ":7580" is selected to match the port we will designate for Nextcloud in a later step. Do not change this number unless you know what you're doing.
 
-### __Databag__
+### __Databag__ (optional)
 
 Once your system is set up, this URL will take you to a secondary secure communication hub.
 
@@ -92,7 +92,7 @@ In the "subdomain" section, enter `databag`. In the "domain" section, select you
 
 Note: Technically you can use any open port number for Databag, not just ":7000". However, ":7000" is selected to match the port we will designate for Nextcloud in a later step. Do not change this number unless you know what you're doing.
 
-### __Pi-hole__
+### __Pi-hole__ (optional)
 
 Once your system is set up, this URL will take you to the control panel for an adblocker which will reduce the number of ads for all devices on your internet.
 
