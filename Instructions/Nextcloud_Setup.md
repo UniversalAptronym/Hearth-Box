@@ -11,7 +11,7 @@ In this section you will install Nextloud. This well let you and others securely
 
 2. This should bring up the following installation window, which you can scroll to see the entirety of. If it does not, scroll over the "Nextcloud" App and click the three dots which appear, then click `Settings`. There will be four tabs at the top of the Settings screen: cron, db-nextcloud, nextcloud, and redis-nextcloud. You will need to add, change, or confirm information on three of those tabs: cron, db-nextcloud, and nextcloud.
 
-<img src="../Media_Repository/Nextcloud_Alt_Settings.png" alt="Nextcloud installation alt settings access" title="Nextcloud alt settings access" width="60%"/>
+<img src="../Media_Repository/Nextcloud_Alt_Settings_Access.png" alt="Nextcloud installation alt settings access" title="Nextcloud alt settings access" width="60%"/>
 
 3. If you are not already on it, click the `cron` tab in the "Settings" window. ([Cron](https://en.wikipedia.org/wiki/Cron#) is a program used for scheduling automated repetitive tasks on a Linux operating system, like the one installed on your Raspberry Pi.) The below doesn't have anything to do with Cron details though, it just happens to be the first settings tab, which is where CasaOS puts the "Web UI" settings for a program - which is used to tell your Raspberry Pi how to open an app when you click on it from the homepage. 
   - Under "Web UI", use the drop-down menu to make sure the URL prefix is `https://`. This ensures that when you click the Nextcloud icon from your homepage, it uses a secure connection.
