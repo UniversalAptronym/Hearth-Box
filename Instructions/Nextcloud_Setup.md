@@ -53,4 +53,4 @@ First, copy the text below (including the empty line) by selecting it and pressi
   'filelocking.enabled' => false,
 ```
 
-<img src="../Media_Repository/Nextcloud_PHP_Settings_0.png" alt="Nextcloud PHP Settings 0" title="Nextcloud PHP Settings 0" width="40%"/> <img src="../Media_Repository/Nextcloud_PHP_Settings_1.png" alt="Nextcloud PHP Settings 1" title="Nextcloud PHP Settings 1" width="40%"/> 
+<img src="../Media_Repository/Nextcloud_PHP_Settings_0.png" alt="Nextcloud PHP Settings 0" title="Nextcloud PHP Settings 0" width="40%"/> <img src="../Media_Repository/Nextcloud_PHP_Settings_1.png" alt="Nextcloud PHP Settings 1" title="Nextcloud PHP Settings 1" width="55%"/> 
