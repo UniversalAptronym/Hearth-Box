@@ -1,4 +1,4 @@
-# __Nextcloud Setup (This is the program used to talk to others and store files on the cloud)__
+# __Nextcloud Setup__
 
 In this section you will install Nextloud. This well let you and others securely communicate to each other over the worldwide web through text, voice, and video chats. It will also act as a cloud storage device, allowing you and others to save files online and synchronize them through devices.
 
