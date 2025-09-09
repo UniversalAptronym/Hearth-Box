@@ -19,8 +19,13 @@ In this section you will install Nextloud. This well let you and others securely
   - Under "Web UI", delete everything in the second box after the prefix. Once you have done so, it should read ":Ports", where that text is greyed out.
   - Under "Web UI", make sure the third box after the prefix contains only a `/` symbol.
 
+
+<img src="../Media_Repository/Nextcloud_Settings_1a.png" alt="Nextcloud settings 1a" title="Nextcloud settings 1a" width="40%"/> <img src="../Media_Repository/Nextcloud_Settings_1b.png" alt="Nextcloud settings 1b" title="Nextcloud settings 1b" width="40%"/> 
+
 4. Click the `db-nextcloud` tab in the "Settings" window. This tab controls backend settings for PostgresSQL, a database management program which helps Nextcloud. You need to change the following setting for security reasons, but you will never use them unless you are a very advanced user.
   - Under "Environment Variables", there are columns labeled "Key" and "Value". Next to the key labeled "POSTGRES_PASSWORD", change the text in the value box to be a random sequence of letters and numbers like this "fsaDfstTEW4573KNWEnfk" (DO NOT USE THIS SPECIFIC SEQUENCE). You don't need to write this down or be able to remember it, it just needs to be random and long so bad actors can't have a program guess it.
+
+<img src="../Media_Repository/Nextcloud_Settings_2a.png" alt="Nextcloud settings 2a" title="Nextcloud settings 2a" width="40%"/> <img src="../Media_Repository/Nextcloud_Settings_2b.png" alt="Nextcloud settings 2b" title="Nextcloud settings 2b" width="40%"/> 
 
 5. Click the `nextcloud` tab in the "Settings" window. This tab controls backend settings for the Nextcloud program itself.
   - Under "Environment Variables", there are columns labeled "Key" and "Value". Next to the key labeled "OVERWRITEPROTOCOL", change the value to `https`, if it isn't that already. This ensures your Nextcloud program only uses secure communication protocols for transferring information.
@@ -28,6 +33,12 @@ In this section you will install Nextloud. This well let you and others securely
   - Under "Environment Variables", there are columns labeled "Key" and "Value". Next to the key labeled "PHP_UPLOAD_LIMIT", change the value to "1024M". This increases the size limit of the 'chunks' Nextcloud uses to send large files, improving transfer speeds.
   - Under "Environment Variables", there are columns labeled "Key" and "Value". Next to the key labeled "POSTGRES_PASSWORD", change the text in the value box to be the same random sequence of letters and numbers as in step 4 above.
 
+<img src="../Media_Repository/Nextcloud_Settings_3a.png" alt="Nextcloud settings 3a" title="Nextcloud settings 3a" width="40%"/> <img src="../Media_Repository/Nextcloud_Settings_3b.png" alt="Nextcloud settings 3b" title="Nextcloud settings 3b" width="40%"/> 
+
 6. Press `Save` to confirm these settings. Wait for Nextcloud to finish changing itself to include the new settings (there will be a message telling you when this is done).
 
 7. Click the `Files` app on the homepage. Then click the following files in order: `AppData` > `big-bear-nextcloud` > `html` > `config`. Then click the file named `config.php`. This opens a file containing settings which control how Nextcloud functions, some of which you will need to change or add.~~~
+
+<img src="../Media_Repository/Nextcloud_Install_3.png" alt="Nextcloud installation 3" title="Nextcloud installation 3" width="40%"/> <img src="../Media_Repository/Nextcloud_Install_4.png" alt="Nextcloud installation 4" title="Nextcloud installation 4" width="40%"/> 
+<img src="../Media_Repository/Nextcloud_Install_5.png" alt="Nextcloud installation 5" title="Nextcloud installation 5" width="40%"/> <img src="../Media_Repository/Nextcloud_Install_6.png" alt="Nextcloud installation 6" title="Nextcloud installation 6" width="40%"/> 
+<img src="../Media_Repository/Nextcloud_Install_7.png" alt="Nextcloud installation 7" title="Nextcloud installation 7" width="40%"/> <img src="../Media_Repository/Nextcloud_Install_8.png" alt="Nextcloud installation 8" title="Nextcloud installation 8" width="40%"/> 
