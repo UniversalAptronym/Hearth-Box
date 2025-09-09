@@ -59,11 +59,11 @@ Copy the text below (including the empty line) by selecting it and pressing `ctr
 
 <img src="../Media_Repository/Nextcloud_PHP_Settings_2.png" alt="Nextcloud PHP Settings 2" title="Nextcloud PHP Settings 2" width="55%"/> 
 
-10. Finally, find the section underneath "'trusted_domains' =>". You need to add two things to the section below it, which will tell Nextcloud to recognize communications coming from your Raspberry Pi and from your Web URL as legitimate communications. Using your keyboard, add two new lines beneath the line saying "0 => 'localhost',". Don't forget to include the preceding two empty spaces `  `, the single quotation marks `'`, or the commas `,`.
+10. Finally, find the section underneath "'trusted_domains' =>". You need to add two things to the section below it, which will tell Nextcloud to recognize communications coming from your Raspberry Pi and from your Web URL as legitimate communications. Using your keyboard, add two new lines beneath the line saying "0 => 'localhost',". Don't forget to include the preceding four empty spaces `    `, the single quotation marks `'`, or the commas `,`.
 
 For the first line, replace everything inside the square brackets (including the brackets) with your **Raspberry Pi's local IP address**. For the second line, replace everything inside the square brackets (including the brackets) with your chosen **Web URL**, including the ".com", ".org", etc suffix on the end.
 
-`1 => '[Your Raspberry Pi's local IP address]',`
-`2 => 'network.[examplewebURL]',`
+```    1 => '[Your Raspberry Pi's local IP address]',```
+```    2 => 'network.[examplewebURL]',```
 
 <img src="../Media_Repository/Nextcloud_PHP_Settings_3.png" alt="Nextcloud PHP Settings 3" title="Nextcloud PHP Settings 3" width="55%"/> 
