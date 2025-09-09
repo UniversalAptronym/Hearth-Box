@@ -37,8 +37,20 @@ In this section you will install Nextloud. This well let you and others securely
 
 6. Press `Save` to confirm these settings. Wait for Nextcloud to finish changing itself to include the new settings (there will be a message telling you when this is done).
 
-7. Click the `Files` app on the homepage. Then click the following files in order: `AppData` > `big-bear-nextcloud` > `html` > `config`. Then click the file named `config.php`. This opens a file containing settings which control how Nextcloud functions, some of which you will need to change or add.~~~
+7. Click the `Files` app on the homepage. Then click the following files in order: `AppData` > `big-bear-nextcloud` > `html` > `config`. Then click the file named `config.php`. This opens a file containing settings which control how Nextcloud functions. You will need to change some preexisting settings, and add new ones.
 
 <img src="../Media_Repository/Nextcloud_Install_3.png" alt="Nextcloud installation 3" title="Nextcloud installation 3" width="40%"/> <img src="../Media_Repository/Nextcloud_Install_4.png" alt="Nextcloud installation 4" title="Nextcloud installation 4" width="40%"/> 
 <img src="../Media_Repository/Nextcloud_Install_5.png" alt="Nextcloud installation 5" title="Nextcloud installation 5" width="40%"/> <img src="../Media_Repository/Nextcloud_Install_6.png" alt="Nextcloud installation 6" title="Nextcloud installation 6" width="40%"/> 
 <img src="../Media_Repository/Nextcloud_Install_7.png" alt="Nextcloud installation 7" title="Nextcloud installation 7" width="40%"/> <img src="../Media_Repository/Nextcloud_Install_8.png" alt="Nextcloud installation 8" title="Nextcloud installation 8" width="40%"/> 
+
+8. First we will add two settings. Normally Nextcloud is excessively careful with how it handles files, which is useful for a professional company server, but not useful for personal use. Adding these settings turns that off.
+
+First, copy the text below (including the empty line) by selecting it and pressing `ctrl+c`. Now return to the `config.php` file from the previous step. Move your cursor, using `mouse clicks` or the `arrows keys`, to be immediately after the very last comma of the file. Now press `ctrl+v` to paste the copied code. It should now look like the images below. 
+
+```
+
+  'maintenance' => false,
+  'filelocking.enabled' => false,
+```
+
+<img src="../Media_Repository/Nextcloud_PHP_Settings_0.png" alt="Nextcloud PHP Settings 0" title="Nextcloud PHP Settings 0" width="40%"/> <img src="../Media_Repository/Nextcloud_PHP_Settings_1.png" alt="Nextcloud PHP Settings 1" title="Nextcloud PHP Settings 1" width="40%"/> 
