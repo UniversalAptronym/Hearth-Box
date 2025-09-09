@@ -64,6 +64,7 @@ Copy the text below (including the empty line) by selecting it and pressing `ctr
 For the first line, replace everything inside the square brackets (including the brackets) with your **Raspberry Pi's local IP address**. For the second line, replace everything inside the square brackets (including the brackets) with your chosen **Web URL**, including the ".com", ".org", etc suffix on the end.
 
 ```    1 => '[Your Raspberry Pi's local IP address]',```
+
 ```    2 => 'network.[examplewebURL]',```
 
 <img src="../Media_Repository/Nextcloud_PHP_Settings_3.png" alt="Nextcloud PHP Settings 3" title="Nextcloud PHP Settings 3" width="55%"/> 
