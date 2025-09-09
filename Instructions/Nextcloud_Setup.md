@@ -45,7 +45,7 @@ In this section you will install Nextloud. This well let you and others securely
 
 8. First we will add two settings. Normally Nextcloud is excessively careful with how it handles files, which is useful for a professional company server, but not useful for personal use. Adding these settings turns that off.
 
-First, copy the text below (including the empty line) by selecting it and pressing `ctrl+c`. Now return to the `config.php` file from the previous step. Move your cursor, using `mouse clicks` or the `arrows keys`, to be immediately after the very last comma of the file. Now press `ctrl+v` to paste the copied code. It should now look like the images below. 
+Copy the text below (including the empty line) by selecting it and pressing `ctrl+c`. Now return to the `config.php` file from the previous step. Move your cursor, using `mouse clicks` or the `arrows keys`, to be immediately after the very last comma of the file. Now press `ctrl+v` to paste the copied code. It should now look like the images below. 
 
 ```
 
@@ -54,3 +54,14 @@ First, copy the text below (including the empty line) by selecting it and pressi
 ```
 
 <img src="../Media_Repository/Nextcloud_PHP_Settings_0.png" alt="Nextcloud PHP Settings 0" title="Nextcloud PHP Settings 0" width="40%"/> <img src="../Media_Repository/Nextcloud_PHP_Settings_1.png" alt="Nextcloud PHP Settings 1" title="Nextcloud PHP Settings 1" width="55%"/> 
+
+9. Next, find the line which says "'overwriteprotocol' => 'http',". Navigate to it and type an `s` to change it to `'overwriteprotocol' => 'https',`. This ensures Nextcloud always uses secure encryption protocols to transfer information.
+
+<img src="../Media_Repository/Nextcloud_PHP_Settings_2.png" alt="Nextcloud PHP Settings 2" title="Nextcloud PHP Settings 2" width="55%"/> 
+
+10. Finally, find the section underneath "'trusted_domains' =>". You need to add two things to the section below it, which will tell Nextcloud to recognize communications coming from your Raspberry Pi and from your Web URL as legitimate communications. Using your keyboard, add two new lines beneath the line saying "0 => 'localhost',". Don't forget to include the single quotation marks `'` or the commas `,`. For the first line, replace everything inside the square brackets (including the brackets) with your **Raspberry Pi's local IP address**. For the second line, replace everything inside the square brackets (including the brackets) with your chosen **Web URL**, including the ".com", ".org", etc suffix on the end.
+
+`1 => '[Your Raspberry Pi's local IP address]',`
+`2 => 'network.[examplewebURL]',`
+
+<img src="../Media_Repository/Nextcloud_PHP_Settings_3.png" alt="Nextcloud PHP Settings 3" title="Nextcloud PHP Settings 3" width="55%"/> 
