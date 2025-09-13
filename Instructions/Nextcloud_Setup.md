@@ -1,4 +1,4 @@
-<img width="28" height="202" alt="image" src="https://github.com/user-attachments/assets/e237d17a-0642-4958-9748-169712ec01b7" /># __Nextcloud Setup__
+# __Nextcloud Setup__
 
 In this section you will install Nextloud. This well let you and others securely communicate to each other over the worldwide web through text, voice, and video chats. It will also act as a cloud storage device, allowing you and others to save files online and synchronize them through devices.
 
