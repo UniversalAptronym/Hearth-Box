@@ -1,4 +1,4 @@
-# __Nextcloud Setup__
+<img width="28" height="202" alt="image" src="https://github.com/user-attachments/assets/e237d17a-0642-4958-9748-169712ec01b7" /># __Nextcloud Setup__
 
 In this section you will install Nextloud. This well let you and others securely communicate to each other over the worldwide web through text, voice, and video chats. It will also act as a cloud storage device, allowing you and others to save files online and synchronize them through devices.
 
@@ -57,6 +57,8 @@ Copy the text below (including the empty line) by selecting it and pressing `ctr
 
 9. Next, find the line which says "'overwriteprotocol' => 'http',". Navigate to it and type an `s` to change it to `'overwriteprotocol' => 'https',`. This ensures Nextcloud always uses secure encryption protocols to transfer information.
 
+Leave the values for "NEXTCLOUD_ADMIN_PASSWORD" and "NEXTCLOUD_ADMIN_USER" as `casaos` and `casaos`. 
+
 <img src="../Media_Repository/Nextcloud_PHP_Settings_2.png" alt="Nextcloud PHP Settings 2" title="Nextcloud PHP Settings 2" width="55%"/> 
 
 10. Finally, find the section underneath "'trusted_domains' =>". You need to add two things to the section below it, which will tell Nextcloud to recognize communications coming from your Raspberry Pi and from your Web URL as legitimate communications. Using your keyboard, add two new lines beneath the line saying "0 => 'localhost',". Don't forget to include the preceding four empty spaces `    `, the single quotation marks `'`, or the commas `,`.
@@ -68,3 +70,7 @@ For the first line, replace everything inside the square brackets (including the
 ```    2 => 'network.[examplewebURL]',```
 
 <img src="../Media_Repository/Nextcloud_PHP_Settings_3.png" alt="Nextcloud PHP Settings 3" title="Nextcloud PHP Settings 3" width="55%"/> 
+
+11. Press the `X` button to close out the file system. Then click the `Nextcloud` app on your homepage to open Nextcloud.
+
+<img src="../Media_Repository/Nextcloud_Install_9.png" alt="Nextcloud installation 9" title="Nextcloud installation 9" width="40%"/> <img src="../Media_Repository/Nextcloud_Install_10.png" alt="Nextcloud installation 10" title="Nextcloud installation 10" width="40%"/> 
