@@ -43,7 +43,7 @@ In this section you will install Nextloud. This well let you and others securely
 <img src="../Media_Repository/Nextcloud_Install_5.png" alt="Nextcloud installation 5" title="Nextcloud installation 5" width="40%"/> <img src="../Media_Repository/Nextcloud_Install_6.png" alt="Nextcloud installation 6" title="Nextcloud installation 6" width="40%"/> 
 <img src="../Media_Repository/Nextcloud_Install_7.png" alt="Nextcloud installation 7" title="Nextcloud installation 7" width="40%"/> <img src="../Media_Repository/Nextcloud_Install_8.png" alt="Nextcloud installation 8" title="Nextcloud installation 8" width="40%"/> 
 
-8. First we will add two settings. Normally Nextcloud is excessively careful with how it handles files, which is useful for a professional company server, but not useful for personal use. Adding these settings turns that off.
+8. First you will add two settings. Normally Nextcloud is excessively careful with how it handles files, which is useful for a professional company server, but not useful for personal use. Adding these settings turns that off.
 
 Copy the text below (including the empty line) by selecting it and pressing `ctrl+c`. Now return to the `config.php` file from the previous step. Move your cursor, using `mouse clicks` or the `arrows keys`, to be immediately after the very last comma of the file. Now press `ctrl+v` to paste the copied code. It should now look like the images below. 
 
