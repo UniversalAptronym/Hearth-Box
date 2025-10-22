@@ -13,7 +13,7 @@ Note: Terminal windows often do not accept `ctrl+v` commands to paste content. I
 
 <img src="../Media_Repository/Pi_Imager_OS_settings_1.png" alt="Previous screen where you entered your Pi hostname" title="Previous screen where you entered your Pi hostname" width="40%"/>
 
-1. Open the command terminal on your computer, which is a program which lets you give commands to your computer's operating system directly. Instructions for how to do so are below.
+1. Open the command terminal on your computer, which is used to give commands to computers using text inputs. Instructions for how to do so are below, along with an example of what a terminal window might look like.
 - Windows tutorial ([website](https://www.supportyourtech.com/articles/how-to-open-terminal-on-windows-10-a-step-by-step-guide/)) ([archived copy](
 ../Media_Repository/Windows_Terminal_Instructions.pdf))
 - Apple tutorial ([website](https://support.apple.com/guide/terminal/open-or-quit-terminal-apd5265185d-f365-44cb-8b09-71a064a42125/mac)) ([archived copy](
@@ -21,19 +21,21 @@ Note: Terminal windows often do not accept `ctrl+v` commands to paste content. I
 - Apple tutorial ([website](https://ubuntu.com/tutorials/command-line-for-beginners#3-opening-a-terminal)) ([archived copy](
 ../Media_Repository/Linux_Terminal_Instructions.pdf))
 
-download and install [PuTTY](../Software_Repository/SSH.md). Make sure to create a desktop shortcut for PuTTY, and open it up. In the field for `Host Name (or IP address)`, enter your **Pi hostname** followed by ".local", like this `[exampleHostname].local`. This tells your computer that you want it to talk to your Raspberry Pi.
+<img src="../Media_Repository/Terminal.png" alt="Terminal window" title="Terminal window" width="40%"/>
 
-<img src="../Media_Repository/PuTTY_screen.png" alt="PuTTY login screen" title="PuTTY login screen" width="40%"/>
+2. Into the terminal window, type `ssh [exampleUserName].@[exampleHostName].local`, where "\[exampleUserName\]" is your **Pi username** and "\[exampleUserName\]" is your **Pi hostname**. Then press Enter. This tells your computer that you want it to talk to your Raspberry Pi as a specific user who has permission to access it. If this is your first time connecting to your Raspberry Pi, your computer may ask you if you are sure you want to connect to this device. If it does, type `yes` and press Enter.
 
-2. Press `Open` at the bottom of the PuTTY screen. This will open a mostly black window with only text, saying `login as:`. This is known as the "terminal" window, which is used to give commands to computers using text inputs. Enter your **Pi username** and press Enter. Enter your **Pi password** (no text will appear as you type, as a security measure) and press Enter. (Note: You can use use the backspace key to delete text despite the lack of visible text input.)
+<img src="../Media_Repository/Terminal_SSH.png" alt="Terminal SSH command" title="Terminal SSH command" width="40%"/>
+
+2. When prompted, type your **Pi password** (no text will appear as you type, as a security measure) and press Enter. (Note: You can use use the backspace key to delete text despite the lack of visible text input.)
   - If this works, some more text will appear and the bottom line will read `[exampleHostame].[exampleUsername]:~ $`. This means your computer is speaking to a machine named `exampleHostname` (this is your Pi), and you are logged in as `[exampleUsername]`. Additionally, the `~` means you are accessing the home directory of your Pi, and the `$` means you are a normal user.
   - If you get a black screen without text, your Pi is probably not finished setting up. Exit the screen and try again in a few minutes.
   - If you get an error message, particularly anything about a software error, you probably got your wifi details wrong in the previous step.
   - If your password does not work, you may have entered the password wrong. If retrying your password more carefully does not work, you may have entered it wrong in the Raspberry Pi Imager. [Repeat that step.](../Instructions/Raspberry_Pi_Image_Setup.md)
  
-<img src="../Media_Repository/PuTTY_username.png" alt="PuTTY username input" title="PuTTY username input" width="30%"/> <img src="../Media_Repository/PuTTY_password.png" alt="PuTTY password input" title="PuTTY password input" width="30%"/> <img src="../Media_Repository/PuTTY_terminal_input.png" alt="PuTTY terminal input" title="PuTTY terminal input" width="30%"/>
+<img src="../Media_Repository/PuTTY_password.png" alt="PuTTY password input" title="PuTTY password input" width="40%"/> <img src="../Media_Repository/PuTTY_terminal_input.png" alt="PuTTY terminal input" title="PuTTY terminal input" width="40%"/>
 
-3. Next you need to update your Raspberry Pi, so it as all the most recent security updates. Type `sudo apt update` and press Enter. This tells your Pi's Advanced Package Tool (APT) to run an update. `sudo` indicates that you are using administrator privileges to do so (you are telling it to update very sternly). Some text will scroll across your screen, about what is getting updated. When that is finished, type `sudo apt upgrade -y`. This tells your Pi's Advanced Package Tool (APT) to upgrade all of the underlying code packages and modules, and `-y` tells it to say yes to any "are you sure you want to upgrade this?" questions. More text will scroll across your screen, about what is getting updated.
+3. Next you need to update your Raspberry Pi, so it has all the most recent security updates. Type `sudo apt update` and press Enter. This tells your Pi's Advanced Package Tool (APT) to run an update. `sudo` indicates that you are using administrator privileges to do so (you are telling it to update very sternly). Some text will scroll across your screen, about what is getting updated. When that is finished, type `sudo apt upgrade -y`. This tells your Pi's Advanced Package Tool (APT) to upgrade all of the underlying code packages and modules, and `-y` tells it to say yes to any "are you sure you want to upgrade this?" questions. More text will scroll across your screen, about what is getting updated.
 
 <img src="../Media_Repository/PuTTY_terminal_update_1.png" alt="PuTTY update 1" title="PuTTY update 1" width="40%"/> <img src="../Media_Repository/PuTTY_terminal_update_2.png" alt="PuTTY update 2" title="PuTTY update 2" width="40%"/>
 
