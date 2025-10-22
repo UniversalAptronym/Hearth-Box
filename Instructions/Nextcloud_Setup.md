@@ -1,4 +1,4 @@
-[<- Prev](../Instructions/Cloudflared_Setup_(Web_Connection).md) [Next ->](../Instructions/Nextcloud_Storage_Interface.md)
+[<- Prev](../Instructions/Cloudflared_Setup_(Web_Connection).md) [Next ->](../Instructions/Nextcloud_Admin_Controls.md)
 
 # __Nextcloud Setup__
 
@@ -77,4 +77,4 @@ For the first line, replace everything inside the square brackets (including the
 
 <img src="../Media_Repository/Nextcloud_Install_9.png" alt="Nextcloud installation 9" title="Nextcloud installation 9" width="40%"/> <img src="../Media_Repository/Nextcloud_Install_10.png" alt="Nextcloud installation 10" title="Nextcloud installation 10" width="40%"/> 
 
-[<- Prev](../Instructions/Cloudflared_Setup_(Web_Connection).md) [Next ->](../Instructions/Nextcloud_Storage_Interface.md)
+[<- Prev](../Instructions/Cloudflared_Setup_(Web_Connection).md) [Next ->](../Instructions/Nextcloud_Admin_Controls.md)
