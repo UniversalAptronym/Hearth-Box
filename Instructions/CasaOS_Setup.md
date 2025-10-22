@@ -1,4 +1,4 @@
-[<- Prev](../Instructions/SSH_Setup.md) [Next ->](../Instructions/Cloudflared_Setup_(Web_Connection).md)
+[<- Prev](../Instructions/SSH_setup.md) [Next ->](../Instructions/Cloudflared_Setup_(Web_Connection).md)
 
 # __CasaOS Setup__
 
@@ -50,4 +50,4 @@ Note: Terminal windows often do not accept `ctrl+v` commands to paste content. I
 
 Now on to the next section. We're going to use Cloudflared to safely connect your Raspberry Pi to the worldwide web.
 
-[<- Prev](../Instructions/SSH_Setup.md) [Next ->](../Instructions/Cloudflared_Setup_(Web_Connection).md)
+[<- Prev](../Instructions/SSH_setup.md) [Next ->](../Instructions/Cloudflared_Setup_(Web_Connection).md)
