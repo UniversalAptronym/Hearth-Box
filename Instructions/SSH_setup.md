@@ -3,6 +3,8 @@ to-do:
 - Add a section about how to change your wifi name and password if those change.
 - Include instructions for Macs and Ubuntu.
 
+[<- Prev](../Instructions/Raspberry_Pi_Image_Setup.md) [Next ->](../Instructions/CasaOS_Setup.md)
+
 # __SSH Setup__
 
 SSH means "Secure Shell", referring to the Secure Shell Protocol. An SSH program (like PuTTY) lets you talk to your Pi from your computer in a secure way. This lets us type commands into a text field, press enter, and have the Raspberry Pi execute those commands.
@@ -109,6 +111,6 @@ Steps 6 and 7 depend on if you are using a wired ethernet connection to connect 
 
 16. Finally, type `sudo systemctl reboot` and press Enter. This tells your Pi to reboot to apply the new Ethernet / Wi-Fi connection settings from step 8. It will also terminate your connection with your Raspberry Pi. Wait a few moments for your Pi to reboot, then repeat Step 2 to reconnect with your Pi.
 
-Your Pi now knows how it's supposed to talk to other devices and you are ready for the next step, where we will finally leave all this terminal business behind! Follow the link below that matches the setup you want.
+Your Pi now knows how it's supposed to talk to other devices and you are ready for the next step, where we will finally leave all this terminal business behind and set up an operating system with a graphical user interface.
 
-[Click here to continue setting up your Pi's operating system.](../Instructions/CasaOS_Setup.md) 
+[<- Prev](../Instructions/Raspberry_Pi_Image_Setup.md) [Next ->](../Instructions/CasaOS_Setup.md)
