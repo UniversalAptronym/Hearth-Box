@@ -1,6 +1,5 @@
 to-do:
-- Add RTC protocol thing for Databag.
-- (Sengachi) I'm pretty sure the current configuration I use leaves traffic readable by Cloudflare. Check if there's a way around this other than getting both parties to go through the hassle of Tailscale.
+- Add RTC protocol for Databag.
   - Also add a Tailscale tutorial, but that's not an immediate priority. 
 - We might also need to change the Zero Trust instructions for dietpi with Secure Communications Only.
 
@@ -35,4 +34,5 @@ Note: Updates to Cloudflare's website may cause its user interface or layout to 
 # __Next Step__
 
 You will need to access your account on [Cloudflare's website](dash.cloudflare.com/) for a later part of the process, so leave this webpage open in the background for now. Your next step will be to [image an operating system onto your Raspberry Pi](../Instructions/Raspberry_Pi_Image_Decision.md).
+
 
