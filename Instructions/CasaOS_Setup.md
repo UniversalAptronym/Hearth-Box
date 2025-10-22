@@ -1,3 +1,5 @@
+[<- Prev](../Instructions/SSH_Setup.md) [Next ->](../Instructions/Cloudflared_Setup_(Web_Connection).md)
+
 # __CasaOS Setup__
 
 If typing into the terminal window was intimidating, don't worry! We exactly have two more lines to enter. Type the following line into terminal and press Enter. A lot of text will start scrolling. Wait for this to finish.
@@ -46,4 +48,6 @@ Note: Terminal windows often do not accept `ctrl+v` commands to paste content. I
 
 10. Repeat Step 9, but this time type `https://casaos-appstore.paodayag.dev/linuxserver.zip` into the bar and press Enter. This will add apps from the Linux Server community.
 
-Now on to the next section. We're going to use [Cloudflared to safely connect your Raspberry Pi to the worldwide web](../Instructions/Cloudflared_Setup_(Web_Connection).md).
+Now on to the next section. We're going to use Cloudflared to safely connect your Raspberry Pi to the worldwide web.
+
+[<- Prev](../Instructions/SSH_Setup.md) [Next ->](../Instructions/Cloudflared_Setup_(Web_Connection).md)
