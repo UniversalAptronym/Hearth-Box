@@ -44,15 +44,23 @@ Figure 1: Raspberry Pi Temperature Monitor
 	6. The enclosure and USB cable for the SSD
 	7. An ethernet cable (optional, not pictured)
 
+2.  Apply the grip pads to the bottom of the case.
+
+<img src="/Media_Repository/RPi5_HardwareSetup/Pi_Case_Bottom_1.jpg" alt="Raspberry Pi bottom" title="Raspberry Pi bottom" width="40%"/> <img src="/Media_Repository/RPi5_HardwareSetup/Pi_Case_Bottom_2.jpg" alt="Raspberry Pi bottom" title="Raspberry Pi bottom" width="40%"/> 
+
 3. Place the Pi motherboard in the base of the case as shown in Figure 3. The USB and Ethernet ports should be on the side of the case with lower walls.
 
 	Figure 3: Raspberry Pi within the bottom of the case
 
-4. Apply the four heatsinks as shown in Figure 4. You should test fit the heatsinks before applying them permanently.
+<img src="/Media_Repository/RPi5_HardwareSetup/Pi_Out_Of_Case.jpg" alt="Raspberry Pi out of case" title="Raspberry Pi out of case" width="40%"/> <img src="/Media_Repository/RPi5_HardwareSetup/Pi_In_Case.jpg" alt="Raspberry Pi in case" title="Raspberry Pi in case" width="40%"/>
 
-	**Note:** The heatsinks are not exactly the same size as the components you apply them to. This is normal.
+4. Apply the heatsinks as shown in Figure 4. You should test fit the heatsinks before applying them permanently.
+
+	**Note:** The heatsinks may not be exactly the same size as the components you apply them to. This is normal.
 	
 	**Note:** If you have large fingers or are clumsy (like this author is), you may have to remove the motherboard from the case base for this step. If you do, place the motherboard back in the base of the case after installing the heatsinks.
+
+	**Note:** If you only have less than 5 heatsinks, the largest square heatsink in the below image is the only critical location to which a heatsink absolutely must be applied.
 	
 	To apply the heatsinks:
 	
@@ -65,7 +73,11 @@ Figure 1: Raspberry Pi Temperature Monitor
 
 	  Figure 4: The Raspberry Pi with heatsinks applied
 
-5. Gently remove the cover on the case fan connector (see Figure 0), then plug the case fan into the motherboard.
+<img src="/Media_Repository/RPi5_HardwareSetup/Pi_In_Case_With_Heatsinks.jpg" alt="Raspberry Pi in case with heatsinks" title="Raspberry Pi in case with heatsinks" width="60%"/>
+
+5. Gently remove the cover on the case fan connector (see Figure 0) if one is present, then plug the case fan into the motherboard.
+
+<img src="/Media_Repository/RPi5_HardwareSetup/Pi_Fan_Plug.jpg" alt="Raspberry Pi fan plug" title="Raspberry Pi fan plug" width="60%"/>
 
 6. Attach the case fan to the base of the base.
 	1. Align the locking tab on the case fan mount with the locking tab slot on the base of the case, then insert the tab into the slot. You will need to angle the case fan mount to insert the tab (see Figure 5).
@@ -77,8 +89,8 @@ Figure 1: Raspberry Pi Temperature Monitor
 	2. Locking tab slot
 
 7. Set the case cover on top of the case fan mount.
-
-	  Figure 6: Completed Raspberry Pi 5
+   
+<img src="/Media_Repository/RPi5_HardwareSetup/Pi_Case_Complete.jpg" alt="Raspberry Pi case complete" title="Raspberry Pi case complete" width="60%"/>
 
 ## Terms Used in This Section
 
