@@ -1,3 +1,5 @@
+[<- Prev](../Instructions/CasaOS_Setup.md) [Next ->](../Instructions/Nextcloud_Setup.md)
+
 # __Cloudflared Tunnel Setup (Connecting Your Pi To The Worldwide Web)__
 
 In this section you will install a Cloudflared tunnel. This well let you and others connect securely to your Hearth Box from the worldwide web.
@@ -110,4 +112,6 @@ Before moving on, try connecting to your Raspberry Pi homepage via the worldwide
 
 Note: When you install new programs on your Pi, each one needs to be manually connected to the internet for you to be able to access it from anyone, rather than just your local internet. This includes connecting your Cloudflare tunnel to them, as above, and also connecting the program to the web, which we will cover in the next section.
 
-Next you will install a [secure communications system and home cloud server using Nextcloud](../Instructions/Nextcloud_Setup.md).
+Next you will install a secure communications system and home cloud server using Nextcloud.
+
+[<- Prev](../Instructions/CasaOS_Setup.md) [Next ->](../Instructions/Nextcloud_Setup.md)
