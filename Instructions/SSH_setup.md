@@ -13,7 +13,15 @@ Note: Terminal windows often do not accept `ctrl+v` commands to paste content. I
 
 <img src="../Media_Repository/Pi_Imager_OS_settings_1.png" alt="Previous screen where you entered your Pi hostname" title="Previous screen where you entered your Pi hostname" width="40%"/>
 
-1. If you are using Windows, download and install [PuTTY](../Software_Repository/SSH.md). Make sure to create a desktop shortcut for PuTTY, and open it up. In the field for `Host Name (or IP address)`, enter your **Pi hostname** followed by ".local", like this `[exampleHostname].local`. This tells your computer that you want it to talk to your Raspberry Pi.
+1. Open the command terminal on your computer, which is a program which lets you give commands to your computer's operating system directly. Instructions for how to do so are below.
+- Windows tutorial ([website](https://www.supportyourtech.com/articles/how-to-open-terminal-on-windows-10-a-step-by-step-guide/)) ([archived copy](
+../Media_Repository/Windows_Terminal_Instructions.pdf))
+- Apple tutorial ([website](https://support.apple.com/guide/terminal/open-or-quit-terminal-apd5265185d-f365-44cb-8b09-71a064a42125/mac)) ([archived copy](
+../Media_Repository/Apple_Terminal_Instructions.pdf))
+- Apple tutorial ([website](https://ubuntu.com/tutorials/command-line-for-beginners#3-opening-a-terminal)) ([archived copy](
+../Media_Repository/Linux_Terminal_Instructions.pdf))
+
+download and install [PuTTY](../Software_Repository/SSH.md). Make sure to create a desktop shortcut for PuTTY, and open it up. In the field for `Host Name (or IP address)`, enter your **Pi hostname** followed by ".local", like this `[exampleHostname].local`. This tells your computer that you want it to talk to your Raspberry Pi.
 
 <img src="../Media_Repository/PuTTY_screen.png" alt="PuTTY login screen" title="PuTTY login screen" width="40%"/>
 
