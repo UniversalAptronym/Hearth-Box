@@ -100,4 +100,6 @@ Note about notation:
  - Text which appears in bold **like this** refers to information you should have recorded somewhere. For example, **Raspberry Pi hostname** refers to the hostname you selected for your Raspberry Pi above.
  - Text which appears highlighted `like this` refers to user inputs you must take, such as the name of a button you must push or text you must enter.
 
-Click [here](Equipment_List/README.md) to begin your self-hosting journey!
+Click below to begin your self-hosting journey!
+
+[Next ->](Equipment_List/README.md)
