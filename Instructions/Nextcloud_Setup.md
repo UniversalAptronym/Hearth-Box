@@ -1,3 +1,5 @@
+[<- Prev](../Instructions/Cloudflared_Setup_(Web_Connection).md) [Next ->](../Instructions/Nextcloud_Storage_Interface.md)
+
 # __Nextcloud Setup__
 
 In this section you will install Nextloud. This well let you and others securely communicate to each other over the worldwide web through text, voice, and video chats. It will also act as a cloud storage device, allowing you and others to save files online and synchronize them through devices.
@@ -74,3 +76,5 @@ For the first line, replace everything inside the square brackets (including the
 11. Press the `X` button to close out the file system. Then click the `Nextcloud` app on your homepage to open Nextcloud.
 
 <img src="../Media_Repository/Nextcloud_Install_9.png" alt="Nextcloud installation 9" title="Nextcloud installation 9" width="40%"/> <img src="../Media_Repository/Nextcloud_Install_10.png" alt="Nextcloud installation 10" title="Nextcloud installation 10" width="40%"/> 
+
+[<- Prev](../Instructions/Cloudflared_Setup_(Web_Connection).md) [Next ->](../Instructions/Nextcloud_Storage_Interface.md)
