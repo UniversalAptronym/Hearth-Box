@@ -10,7 +10,7 @@ Follow these instructions to assemble your Raspberry Pi.
 
 Figure 0: Raspberry Pi 5 Schematic
 
-<img src="../Media_Repository/RPi5_HardwareSetup/Pi_Schematic.jpg" alt="Raspberry Pi schematic" title="Raspberry Pi schematic" width="50%"/>
+<img src="../Media_Repository/RPi5_HardwareSetup/Pi_Schematic.jpg" alt="Raspberry Pi schematic" title="Raspberry Pi schematic" width="60%"/>
 
 **Caution:** Discharge static electricity before working with electrical components such as motherboards, SSDs, or HDDs. While working with electrical components, you should also remain electrically grounded. If you don't, electrostatic discharge (a.k.a. static electricity) could damage your computer. To discharge static electricity, touch a metal object which is touching the ground such as the leg of a desk, table, or a light switch. To remain electrically grounded, remain in contact with the work surface.
 
