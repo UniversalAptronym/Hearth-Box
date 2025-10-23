@@ -79,15 +79,15 @@ Figure 1: Raspberry Pi Temperature Monitor
 
 <img src="/Media_Repository/RPi5_HardwareSetup/Pi_Fan_Plug.jpg" alt="Raspberry Pi fan plug" title="Raspberry Pi fan plug" width="60%"/>
 
-6. Attach the case fan to the base of the base.
-	1. Align the locking tab on the case fan mount with the locking tab slot on the base of the case, then insert the tab into the slot. You will need to angle the case fan mount to insert the tab (see Figure 5).
-	2. Lower the case fan mount onto the base.
+6. Align the case top's latch with the case base.
+	1. Align the locking tab on the case fan mount with the locking tab slot on the base of the case, then insert the tab into the slot. You will need to angle the case top to insert the tab (see Figure 5).
+	2. Lower the case top onto the base.
 
 	Figure 5: Attaching the case fan
 	
 <img src="/Media_Repository/RPi5_HardwareSetup/Pi_Case_Latch_1.jpg" alt="Raspberry Pi latch" title="Raspberry Pi latch" width="40%"/> <img src="/Media_Repository/RPi5_HardwareSetup/Pi_Case_Latch_2.jpg" alt="Raspberry Pi latch" title="Raspberry Pi latch" width="40%"/> 
 
-7. Set the case cover on top of the case fan mount.
+7. Snap the case top into place.
    
 <img src="/Media_Repository/RPi5_HardwareSetup/Pi_Case_Complete.jpg" alt="Raspberry Pi case complete" title="Raspberry Pi case complete" width="60%"/>
 
