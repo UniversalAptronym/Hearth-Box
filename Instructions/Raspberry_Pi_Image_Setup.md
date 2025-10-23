@@ -35,7 +35,13 @@ If and ***only if*** you are going to be using a wireless connection for your Ra
 
 <img src="../Media_Repository/Pi_Imager_OS_settings_1.png" alt="Pi imager OS other" alt="Pi imager OS settings" title="Pi imager OS settings" width="30%"/> <img src="../Media_Repository/Pi_Imager_OS_settings_2.png" alt="Pi imager OS settings" title="Pi imager OS settings" width="30%"/> 
 
-7. Remove the USB plug of the SSD enclosure from your PC. Make sure your Pi is unplugged from any power outlet. Plug the USB plug of the SSD enclosure into the Pi. Plug your SSD enclosure's power outlet into a power outlet. Plug your Pi into a power outlet. Wait one minute while your Pi boots up. You now have a tiny functioning computer! 
+7.
+  - Remove the USB plug of the SSD enclosure from your computer.
+  - Make sure your Pi is unplugged from any power outlet.
+  - Plug the USB plug of the SSD enclosure into the Pi.
+  - Plug your SSD enclosure's power outlet into a power outlet.
+  - Plug your Pi into a power outlet.
+Wait one minute while your Pi boots up. You now have a tiny functioning computer! 
 
 # __Next Step__
 
