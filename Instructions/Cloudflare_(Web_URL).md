@@ -3,7 +3,7 @@ Todo:
   - Also add a Tailscale tutorial, but that's not an immediate priority. 
 - We might also need to change the Zero Trust instructions for dietpi with Secure Communications Only.
 
-[<- Prev](../Equipment_List/README.md) [Next ->](../Instructions/Raspberry_Pi_Image_Decision.md)
+[<- Prev](../Equipment_List/README.md) [Next ->](../Instructions/Raspberry_Pi_Assembly.md)
 
 # __Getting a Web URL with Cloudflare__
 
@@ -37,7 +37,4 @@ Note: Updates to Cloudflare's website may cause its user interface or layout to 
 
 You will need to access your account on [Cloudflare's website](dash.cloudflare.com/) for a later part of the process, so leave this webpage open in the background for now. Your next step will be to image an operating system onto your Raspberry Pi.
 
-[<- Prev](../Equipment_List/README.md) [Next ->](../Instructions/Raspberry_Pi_Image_Decision.md)
-
-
-
+[<- Prev](../Equipment_List/README.md) [Next ->](../Instructions/Raspberry_Pi_Assembly.md)
