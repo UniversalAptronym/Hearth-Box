@@ -41,10 +41,10 @@ If and ***only if*** you are going to be using a wireless connection for your Ra
   - Plug the USB plug of the SSD enclosure into the Pi.
   - Plug your SSD enclosure's power outlet into a power outlet.
   - Plug your Pi into a power outlet.
-Wait one minute while your Pi boots up. You now have a tiny functioning computer! 
-
+  - Wait one minute while your Pi boots up.
+ 
 # __Next Step__
 
-Your next step, to talk to the Pi, is to use SSH to connect to your Pi.
+You now have a tiny functioning computer! Your next step is to connect to it.
 
 [<- Prev](../Instructions/Raspberry_Pi_Assembly.md) [Next ->](../Instructions/SSH_setup.md) 
