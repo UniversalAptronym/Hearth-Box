@@ -1,3 +1,5 @@
+[<- Prev](../Instructions/Cloudflare_(Web_URL).md) [Next ->](../Instructions/Raspberry_Pi_Image_Setup.md)
+
 # Assemble Your Raspberry Pi
 
 Follow these instructions to assemble your Raspberry Pi.
@@ -101,3 +103,5 @@ Figure 1: Raspberry Pi Temperature Monitor
 - Central Processing Unit (CPU): The part of a computer which runs programs. Think of it as a computer's brain.
 - Random Access Memory (RAM): RAM is temporary memory which the CPU uses for programs which it's actively running. Unlike SSDs and HDDs, RAM does not save information when it loses power.
 - I/O controller: A component which controls all input to and output from a computer.
+
+[<- Prev](../Instructions/Cloudflare_(Web_URL).md) [Next ->](../Instructions/Raspberry_Pi_Image_Setup.md)
