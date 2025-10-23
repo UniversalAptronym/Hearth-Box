@@ -33,7 +33,7 @@ We want to make this project accessible to _as many people as possible_, which m
     (_Authors' Note:_ If you're in the United States, the 2025 tariffs have substantially increased the prices for electronics. The prices listed in this guide may no longer be accurate, but the market is too volatile to keep them updated. For lower prices or improved availability, we suggest buying refurbished equipment if possible, with the exception of hard drives. If you choose to purchase refurbished hard drives as well, be aware they they can be unreliable and you should be especially vigilant about backing up any data stored on your Hearth Box.)
 
     1. [Full Home Server with Cloud Storage and Secure Communication](Equipment_List/Description_Full_Home_Server.md) (~$150-200 + $10/yr)
-    2. [Secure Communication Only](Equipment_List/Description_Secure_Communication_Only.md) (~$50-70 + $10/yr) (under construction)
+    2. ~~[Secure Communication Only](Equipment_List/Description_Secure_Communication_Only.md) (~$50-70 + $10/yr)~~ (this section of the guide is not yet constructed)
  2. Buy the equipment you need from [this list](Equipment_List/README.md).
  3. Get a domain name (web URL) and set it up. When you are finished, you and others will access your communication server by going to this URL. [Setting up a web URL with Cloudflare.md](Instructions/Cloudflare_(Web_URL).md)
  4. Install the imaging software. This software lets you use your computer to install other software onto your equipment.
