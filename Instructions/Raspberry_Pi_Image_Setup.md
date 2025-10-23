@@ -1,6 +1,8 @@
 To-do: 
 Secure communication only section, with dietpi.
 
+[<- Prev](../Instructions/Raspberry_Pi_Assembly.md) [Next ->](../Instructions/SSH_setup.md) 
+
 ### __Surge Protection__
 
 For the safety of your electronics, we highly recommend that all power outlets you plug your equipment to are part of surge-protector, or a power strip with surge protection, to avoid losing your equipment and data to a power surge.
@@ -37,5 +39,6 @@ If and ***only if*** you are going to be using a wireless connection for your Ra
 
 # __Next Step__
 
-Your next step, to talk to the Pi, is to [use SSH to connect to your Pi](../Instructions/SSH_setup.md).
+Your next step, to talk to the Pi, is to use SSH to connect to your Pi.
 
+[<- Prev](../Instructions/Raspberry_Pi_Assembly.md) [Next ->](../Instructions/SSH_setup.md) 

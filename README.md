@@ -45,9 +45,12 @@ We want to make this project accessible to _as many people as possible_, which m
 7. [Install SSH software](Instructions/SSH_setup.md) (this lets your computer talk to your Raspberry Pi during the installation).
 8. [Log into your Pi and complete the installation, using CasaOS](Instructions/CasaOS_Setup.md).
 9. [Set up Cloudflared (not to be confused with Cloudflare)](Instructions/Cloudflared_Setup_(Web_Connection).md), which lets you and others connect to Nextcloud / Databag remotely over the internet.
-10. Set up your Nextcloud server, for secure communications and cloud storage.
-11. Optional: Set up your Databag server, for extra secure communications.
-12. Optional: [Install an advertisement and tracker blocker](Instructions/Pi-hole_Installation.md)
+10. [Set up your Nextcloud server, for secure communications and cloud storage.](Instructions/Nextcloud_Setup.md) (mostly complete)
+  - [Learn how to manage a Nextcloud server.](Instructions/Nextcloud_Admin_Controls.md) (incomplete)
+  - [Learn how to use a Nextcloud server for communications, including text messages and voice / video calls.](Instructions/Nextcloud_Talk_Interface.md) (incomplete)
+  - [Learn how to use a Nextcloud server as cloud storage.](Instructions/Nextcloud_Storage_Interface.md) (incomplete)
+11. Optional: Set up your Databag server, for extra secure communications. (incomplete)
+12. Optional: [Install an advertisement and tracker blocker](Instructions/Pi-hole_Installation.md) (incomplete)
 13. Talk to your friends and say hi to others.
 
 # __Usernames and Passwords__
@@ -95,4 +98,11 @@ You will also need to record the following information during this installation.
 
 # __Let's Get Started!__
 
-Click [here](Equipment_List/README.md) to begin your self-hosting journey!
+Note about notation:
+ - Text surrounded by square brackets \[like this\] indicates example text which should be replaced by something specific when you write it. You should also remove the square brackets when doing so.
+ - Text which appears in bold **like this** refers to information you should have recorded somewhere. For example, **Raspberry Pi hostname** refers to the hostname you selected for your Raspberry Pi above.
+ - Text which appears highlighted `like this` refers to user inputs you must take, such as the name of a button you must push or text you must enter.
+
+Click below to begin your self-hosting journey!
+
+[Next ->](Equipment_List/README.md)

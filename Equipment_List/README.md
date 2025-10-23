@@ -1,3 +1,5 @@
+[<- Prev](../README.md) [Next ->](../Instructions/Cloudflare_(Web_URL).md)
+
 # __Equipment List__
 
 Note: In addition to the equipment itself, you will need to purchase a web URL, which as of 2024 costs \~$10/yr. The instructions on how to do so are on the [next page](../Instructions/Cloudflare_(Web_URL).md).
@@ -56,4 +58,6 @@ Raspberry Pi Zero 2 W. (left) Bare motherboard. (Middle) Motherboard with therma
  
 # __Next Step__
 
-Once you have finished your purchases, you will need to purchase a web URL, which as of 2024 costs \~$10/yr. [Follow the instructions here to do so](../Instructions/Cloudflare_(Web_URL).md).
+Once you have finished your purchases, you will need to purchase a web URL, which as of 2024 costs \~$10/yr. 
+
+[<- Prev](../README.md) [Next ->](../Instructions/Cloudflare_(Web_URL).md)
