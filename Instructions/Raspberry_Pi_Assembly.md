@@ -85,7 +85,7 @@ Figure 1: Raspberry Pi Temperature Monitor
 
 	Figure 5: Attaching the case fan
 	
-<img src="/Media_Repository/RPi5_HardwareSetup/Pi_Case_Latch_1.jpg" alt="Raspberry Pi latch" title="Raspberry Pi latch" width="40%"/> <img src="/Media_Repository/RPi5_HardwareSetup/Pi_Case_Latch_1.jpg" alt="Raspberry Pi latch" title="Raspberry Pi latch" width="40%"/> 
+<img src="/Media_Repository/RPi5_HardwareSetup/Pi_Case_Latch_1.jpg" alt="Raspberry Pi latch" title="Raspberry Pi latch" width="40%"/> <img src="/Media_Repository/RPi5_HardwareSetup/Pi_Case_Latch_2.jpg" alt="Raspberry Pi latch" title="Raspberry Pi latch" width="40%"/> 
 
 7. Set the case cover on top of the case fan mount.
    
