@@ -39,7 +39,7 @@ Figure 1: Raspberry Pi Temperature Monitor
 	6. The enclosure and USB cable for the SSD
 	7. An ethernet cable (optional, not pictured)
 
-2.  Apply the grip pads to the bottom of the case, if your chosen case has grip pads. (Author's Note: If you have pets and will be keeping your Raspberry Pi on a surface which they can reach, I recommend using command strips to fix it in place. Just don't cover the case vents in the process. - Sengachi)
+2.  Apply the grip pads to the bottom of the case, if your chosen case has grip pads. (Author's Note: If you have pets and will be keeping your Raspberry Pi on a surface which they can reach, I recommend using command strips to fix it in place. Just don't cover the case vents with them. - Sengachi)
 
 <img src="/Media_Repository/RPi5_HardwareSetup/Pi_Case_Bottom_1.jpg" alt="Raspberry Pi bottom" title="Raspberry Pi bottom" width="40%"/> <img src="/Media_Repository/RPi5_HardwareSetup/Pi_Case_Bottom_2.jpg" alt="Raspberry Pi bottom" title="Raspberry Pi bottom" width="40%"/> 
 
