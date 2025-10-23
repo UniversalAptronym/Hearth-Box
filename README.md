@@ -47,7 +47,7 @@ We want to make this project accessible to _as many people as possible_, which m
 9. [Set up Cloudflared (not to be confused with Cloudflare)](Instructions/Cloudflared_Setup_(Web_Connection).md), which lets you and others connect to Nextcloud / Databag remotely over the internet.
 10. [Set up your Nextcloud server, for secure communications and cloud storage.](Instructions/Nextcloud_Setup.md) (mostly complete)
   - [Learn how to manage a Nextcloud server](Instructions/Nextcloud_Admin_Controls.md).
-  - [Learn how to use a Nextcloud server for communications, including text messages and voice / video calls.](Nextcloud/Nextcloud_Talk_Interface.md)
+  - [Learn how to use a Nextcloud server for communications, including text messages and voice / video calls.](Instructions/Nextcloud_Talk_Interface.md)
   - [Learn how to use a Nextcloud server as cloud storage.](Instructions/Nextcloud_Storage_Interface.md)
 11. Optional: Set up your Databag server, for extra secure communications. (incomplete)
 12. Optional: [Install an advertisement and tracker blocker](Instructions/Pi-hole_Installation.md) (incomplete)
