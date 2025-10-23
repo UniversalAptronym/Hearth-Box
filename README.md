@@ -75,19 +75,17 @@ You will need:
 ### __Optional: For Databag, a secure communication app which is clunkier than Nextcloud but has better operational security__
 - **Databag username** (this is your username for the secure communication app) (Important: Do not ever set your browser to autocomplete this username)
 - **Databag password** (this is your password for the secure communication app) (Important: Do not ever set your browser to autocomplete this password)
+- **Databag admin password** (this is your administrator password for the secure communication app) 
 
 ## __For regular use - Full Home Server Only__
 
 ### __Usernames and passwords you'll need during installation or for changing your system later__
 **IMPORTANT:** None of these passwords should be the same as the others! 
-- **Raspberry Pi hostname** (`hostname`.local is the name your Pi goes by when your computer talks to it) 
+- **Raspberry Pi hostname** ([hostname\].local is the name your Pi goes by when your computer talks to it) 
 - **Raspberry Pi username** (this is the username you use to log into your Pi through the terminal) (if you don't know what that is yet, don't worry)
 - **Raspberry Pi password** (this is the password you use to log into your Pi through the terminal)
 - **Cloudflare email** (this is the email you use for a free account with a service which lets you receive and manage your web URL)
 - **Cloudflare password** (this is the password you use to receive and manage your web URL)
-- **Nginx email** (this is the email you use for a free account with a service which lets you send your computer passwords without other people intercepting them)
-- **Nginx password** (this is the password you use for a free account with a service which lets you send your computer passwords without other people intercepting them) 
-- **Databag admin password** (this is your administrator password for the secure communication app) 
 
 ### __Recorded information__
 You will also need to record the following information during this installation. You should record this information somewhere offline, where you won't lose it.
@@ -99,7 +97,7 @@ You will also need to record the following information during this installation.
 
 Note about notation:
  - Text surrounded by square brackets \[like this\] indicates example text which should be replaced by something specific when you write it. You should also remove the square brackets when doing so.
- - Text which appears in bold **like this** refers to information you should have recorded somewhere. For example, **Raspberry Pi hostname** refers to the hostname you selected for your Raspberry Pi above.
+ - Text which appears in bold **like this** refers to information you should have already decided on or recorded somewhere, during a previous step. For example, **Raspberry Pi hostname** refers to the hostname you selected for your Raspberry Pi, in the list above.
  - Text which appears highlighted `like this` refers to user inputs you must take, such as the name of a button you must push or text you must enter.
 
 Click below to begin your self-hosting journey!
