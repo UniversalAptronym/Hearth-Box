@@ -19,7 +19,7 @@ Figure 0: Raspberry Pi 5 Schematic
 Figure 1: Raspberry Pi Temperature Monitor 
 (You will see how to access this temperature monitor in a [later sectioon](../Instructions/CasaOS_Setup.md).
 
-<img src="../Media_Repository/Raspberry_Pi_Assembly_Temperature.png" alt="Raspberry Pi temperature monitor" title="Raspberry Pi temperature monitor" width="50%"/>
+<img src="../Media_Repository/Raspberry_Pi_Assembly_Temperature.jpg" alt="Raspberry Pi temperature monitor" title="Raspberry Pi temperature monitor" width="50%"/>
 
 ## Assembly Instructions
 
