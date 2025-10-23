@@ -64,9 +64,8 @@ Before you start, you should to decide on the usernames, passwords, and emails y
 You will need:
 
 ## __For regular use__
- **Warning:** This is publically visible. *It should not match any usernames, passwords, or emails below*.
  
-- **Web URL** (this is the URL you and others will use to access your Pi's services) **(IMPORTANT: This is publically visible and SHOULD NOT MATCH ANY USERNAMES BELOW)**
+- **Web URL** (this is the URL you and others will use to access your Pi's services) **(WARNING: This is publically visible and SHOULD NOT MATCH ANY USERNAMES BELOW)**
 
 - **CasaOS username** (this is the username you use to log into your Pi through a web browser)
 - **CasaOS password** (this is the password you use to log into your Pi through a web browser)
