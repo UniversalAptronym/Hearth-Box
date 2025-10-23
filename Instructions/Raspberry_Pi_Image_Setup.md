@@ -1,7 +1,7 @@
 To-do: 
 Secure communication only section, with dietpi.
 
-[<- Prev](../Instructions/Raspberry_Pi_Image_Decision.md) [Next ->](../Instructions/SSH_setup.md) 
+[<- Prev](../Instructions/Raspberry_Pi_Assembly.md) [Next ->](../Instructions/SSH_setup.md) 
 
 ### __Surge Protection__
 
@@ -41,4 +41,4 @@ If and ***only if*** you are going to be using a wireless connection for your Ra
 
 Your next step, to talk to the Pi, is to use SSH to connect to your Pi.
 
-[<- Prev](../Instructions/Raspberry_Pi_Image_Decision.md) [Next ->](../Instructions/SSH_setup.md) 
+[<- Prev](../Instructions/Raspberry_Pi_Assembly.md) [Next ->](../Instructions/SSH_setup.md) 
