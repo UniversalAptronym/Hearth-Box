@@ -8,16 +8,9 @@ Follow these instructions to assemble your Raspberry Pi.
 
 ## Parts of the Raspberry Pi 5
 
-Figure 0: Relevant components of the Raspberry Pi 5
+Figure 0: Raspberry Pi 5 Schematic
 
-1. Motherboard (green plastic printed circuit board)
-2. CPU
-3. RAM
-4. I/O controller
-4. Wi-Fi chip
-5. USB ports
-6. Ethernet port
-7. Case fan connector
+<img src="../Media_Repository/Pi_Schematic" alt="Raspberry Pi schematic" title="Raspberry Pi schematic" width="50%"/>
 
 **Caution:** Discharge static electricity before working with electrical components such as motherboards, SSDs, or HDDs. While working with electrical components, you should also remain electrically grounded. If you don't, electrostatic discharge (a.k.a. static electricity) could damage your computer. To discharge static electricity, touch a metal object which is touching the ground such as the leg of a desk, table, or a light switch. To remain electrically grounded, remain in contact with the work surface.
 
@@ -48,7 +41,7 @@ Figure 1: Raspberry Pi Temperature Monitor
 
 <img src="/Media_Repository/RPi5_HardwareSetup/Pi_Case_Bottom_1.jpg" alt="Raspberry Pi bottom" title="Raspberry Pi bottom" width="40%"/> <img src="/Media_Repository/RPi5_HardwareSetup/Pi_Case_Bottom_2.jpg" alt="Raspberry Pi bottom" title="Raspberry Pi bottom" width="40%"/> 
 
-3. Place the Pi motherboard in the base of the case as shown in Figure 3. The USB and Ethernet ports should be on the side of the case with lower walls.
+3. Place the Pi in the base of the case as shown in Figure 3. The USB and Ethernet ports should be on the side of the case with lower walls.
 
 	Figure 3: Raspberry Pi within the bottom of the case
 
@@ -58,7 +51,7 @@ Figure 1: Raspberry Pi Temperature Monitor
 
 	**Note:** The heatsinks may not be exactly the same size as the components you apply them to. This is normal.
 	
-	**Note:** If you have large fingers or are clumsy (like this author is), you may have to remove the motherboard from the case base for this step. If you do, place the motherboard back in the base of the case after installing the heatsinks.
+	**Note:** If you have large fingers or are clumsy (like this author is), you may have to remove the Pi from the case base for this step. If you do, place the Pi back in the base of the case after installing the heatsinks.
 
 	**Note:** If you only have less than 5 heatsinks, the largest square heatsink in the below image is the only critical location to which a heatsink absolutely must be applied.
 	
@@ -75,7 +68,7 @@ Figure 1: Raspberry Pi Temperature Monitor
 
 <img src="/Media_Repository/RPi5_HardwareSetup/Pi_In_Case_With_Heatsinks.jpg" alt="Raspberry Pi in case with heatsinks" title="Raspberry Pi in case with heatsinks" width="60%"/>
 
-5. Gently remove the cover on the case fan connector (see Figure 0) if one is present, then plug the case fan into the motherboard.
+5. Gently remove the cover on the case fan connector (see Figure 0) if one is present, then plug the case fan into the Pi.
 
 <img src="/Media_Repository/RPi5_HardwareSetup/Pi_Fan_Plug.jpg" alt="Raspberry Pi fan plug" title="Raspberry Pi fan plug" width="60%"/>
 
@@ -94,8 +87,8 @@ Figure 1: Raspberry Pi Temperature Monitor
 ## Terms Used in This Section
 
 - Electrostatic Discharge: Commonly known as "static electricity". Caused when there is a substantial difference in the electrical charge between two objects. Electrostatic discharge can damage computer components.
-- Motherboard: A printed circuit board with various chips, ports, and other components soldered to it. All the parts of a computer attach to the motherboard in some way. Think of it like the computer's nervous system.
 - Solid State Drive (SSD): A more modern primary local storage device for computers. These serve as a computer's permanent memory, and are commonly mounted directly on the motherboard. Solid state drives have no moving parts, so they can store more information in a much smaller space and can read and write that information much more quickly than hard disk drives (HDDs) can. Modern SSDs are also somewhat more reliable than comparable HDDs. However, they cost more per amount of storage capacity than HDDs. SSDs are *not* the same as SD/microSD cards, and are *not* interchangeable.
+- Motherboard: A printed circuit board with various chips, ports, and other components soldered to it. All the parts of a computer attach to the motherboard in some way. Think of it like the computer's nervous system.
 - Hard Disk Drive (HDD): Also known as "hard drives" or "hard disks". An older primary local storage device for computers which serve as a computer's permanent memory, and are commonly mounted within the computer case. Hard drives store information on spinning magnetic disks. Because HDDs have many moving parts, they take up more space and have slower read and write times than comparable SSDs. However, they are cheaper than SSDs (as of this writing, a 20 terabyte external HDD cost about $280. An external SSD with the same capacity would cost at least 3-4x that much).
 - Universal Serial Bus (USB) port: An interface which lets users connect peripheral devices to computers. USB ports let computers and their peripheral devices exchange data and supply power. USB ports are famous for being nearly impossible to connect on the first try. On the Raspberry Pi, these are metal enclosures soldered to one side of the motherboard.
 - Ethernet port: An interface which enables computers to be physically connected to a local network (and therefore the internet) via an Ethernet cable. In general, Ethernet provides a faster connection than Wi-Fi. On the Raspberry Pi, this is a metal enclosure that sits next to the USB ports.
