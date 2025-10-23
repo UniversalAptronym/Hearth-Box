@@ -6,7 +6,7 @@ Welcome to the Hearth Box project. Our primary goal is to provide an easy to use
 
 This guide will show you how to set up a "Hearth Box". A Hearth Box is a device you physically own, which hosts a secure, end-to-end encrypted, self-hosted server accessible on the worldwide web. What this means is that you and others can communicate through it via text, voice, and video chat, on your personal computers and mobile devices, without censorship and without anyone intercepting and reading your communications en-route. A Hearth Box also enables cloud storage of your personal data, which likewise cannot be censored or spied on by third parties. Finally, as an extra perk, a Hearth Box can help filter some internet ads which standard ad-blockers may miss.
 
-(left) An example of a Hearth Box. (right) An example of one of the communication platforms hosted on a Hearth Box
+(left) An example of a Hearth Box. (right) An example of one of the communication platforms which can be hosted on a Hearth Box.
 
 <img src="Media_Repository/Raspberry_Pi_5_and_SSD_enclosed.jpg" alt="Enclosed Pi 5 and SSD" title="Enclosed Pi 5 and SSD" width="40%"/> <img src="Media_Repository/Nextcloud_Talk_Example.png" alt="Nextcloud talk example" title="Nextcloud talk example" width="50%"/> 
 
@@ -20,7 +20,7 @@ So, should you build a Hearth Box? It depends. If you're a member of an at-risk 
 
 If you are not part of an at-risk group and don't know anyone who is, you are not paying for cloud or communication services, and you don't care about ads, you may still want to consider self-hosting on privacy grounds. Most major communication programs are neither secure nor private, and often sell your data or give it to the police without a warrant. Most online file-storage programs (such as Google Drive, Microsoft OneDrive, and Adobe Creative Cloud storage) store your files unencrypted, and some even sell private information from them to advertisers or use the files you store on them to train AI models. If you, like us, consider this a gross invasion of privacy, then you should consider building a Hearth Box.
 
-*Authors' note, 18 May 2025: This is a new project, and therefore a work in progress. Much of the content is missing from this guide. Please be patient while we fill it out.*
+*Authors' note, 18 May 2025: This is a new project, and therefore a work in progress. Some of the content is missing from this guide. Please be patient while we fill it out.*
 
 # __Instructions__
 
