@@ -41,7 +41,7 @@ We want to make this project accessible to _as many people as possible_, which m
     1. ~~(Pre-made) There are prepared images (copies of everything needed to make your Pi a computer with software) and scripts (programs which will ask you for your inputs) which will let you set everything up painlessly. You will only need to type in things like your wifi name and password, your desired usernames and passwords, your domain name, etc.~~
     2. ([Manual](Instructions/Raspberry_Pi_Image_Setup.md)) There is a list of tools and instructions with which you can install a fresh Raspberry Pi OS and add everything you need. Nothing in this section is automated.
 5. [Assemble your Raspberry Pi](Instructions/Raspberry_Pi_Assembly.md).
-6. [Image an operating system](Instructions/Raspberry_Pi_Image_Setup.md) onto your SSD (Full Home Server)~~ or your Micro SD Card (Secure Communication Only)~~. These are the storage devices which will hold all the operational software for your equipment.
+6. [Image an operating system](Instructions/Raspberry_Pi_Image_Setup.md) onto your SSD (Full Home Server) ~~or your Micro SD Card (Secure Communication Only)~~. These are the storage devices which will hold all the operational software for your equipment.
 7. [Install SSH software](Instructions/SSH_setup.md) (this lets your computer talk to your Raspberry Pi during the installation).
 8. [Log into your Pi and complete the installation, using CasaOS](Instructions/CasaOS_Setup.md).
 9. [Set up Cloudflared (not to be confused with Cloudflare)](Instructions/Cloudflared_Setup_(Web_Connection).md), which lets you and others connect to Nextcloud / Databag remotely over the internet.
