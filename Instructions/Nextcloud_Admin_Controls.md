@@ -9,6 +9,8 @@ To-do:
   - ! Registration
   - Secrets
 
+setting: 'upgrade.disable-web' => false,
+
 [<- Prev](../Instructions/Nextcloud_Setup.md)
 
 # Nextcloud Admin Controls
