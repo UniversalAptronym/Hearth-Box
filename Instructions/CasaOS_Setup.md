@@ -20,7 +20,7 @@ Note: Terminal windows often do not accept `ctrl+v` commands to paste content. I
 
 <img src="../Media_Repository/CasaOS_Terminal_IP_Address.png" alt="CasaOS Local IP Address" title="CasaOS Local IP Address" width="40%"/> 
 
-4. Open an internet browser, type `http://XXX.XXX.XXX.XXX` (your **Raspberry Pi's local IP address**) into the URL bar, and press Enter. This will bring you to a browser webpage where you can access CasaOS, which is now running on your Raspberry Pi! You now have a fully functional mini-computer you can access through your internet browser.
+4. Open an internet browser, type `http://XXX.XXX.XXX.XXX` (where [XXX.XXX.XXX.XXX] is your **Raspberry Pi's local IP address**) into the URL bar, and press Enter. This will bring you to a browser webpage where you can access CasaOS, which is now running on your Raspberry Pi! You now have a fully functional mini-computer you can access through your internet browser.
 - Note: You can only access your Raspberry Pi using your **Pi's local IP address** from devices which are all connected to the same internet router. We will be making it so that you can access your Pi from anywhere in the world in later sections.
 - If this doesn't work, click the address in your address bar and check if it is prepended with **http://** or **https://**. Some browsers automatically prepend all address bar entries with **https://** as a security measure (the 's' indicates and encrypted connection), even when inappropriate, especially if you have enabled as setting which tells your browser to enforce https browsing as a security measure. 
 
