@@ -67,7 +67,7 @@ Steps 6 and 7 depend on if you are using a wired ethernet connection to connect 
 
 <img src="../Media_Repository/PuTTY_nmtui_4.png" alt="PuTTY nmtui commands 4" title="PuTTY nmtui commands 4" width="40%"/> <img src="../Media_Repository/PuTTY_nmtui_5.png" alt="PuTTY nmtui commands 5" title="PuTTY nmtui commands 5" width="40%"/>
   
-  - `Addresses`: Highlight `<Add...>` and press Enter. Type the first three parts of your **router's local IP address**, with a period **.** after each part. This will be of the form: **XXX.XXX.XXX.**, where each **XXX** can be 1, 2, or 3 digits. Now check your list of "neighboring" device numbers from step 5, and type in any number from **1 to 999** which is not on that list. (You do not need to press Enter after this.)
+  - `Addresses`: Highlight `<Add...>` and press Enter. Type the first three parts of your **router's local IP address**, with a period **.** after each part. This will be of the form: **XXX.XXX.XXX.**, where each **XXX** can be 1, 2, or 3 digits. Now check your list of "neighboring" device numbers from step 5, and type in any number from **1 to 999** which is not on that list. (You do not need to press Enter after this.) This new number **XXX.XXX.XXX.YYY** will be your **Pi's local IP address**. Record it.
   - Tip: In households with many internet devices, to be extra safe with overlapping IP addresses, pick a number which is 20+ higher than the highest neighboring device number.
 
 <img src="../Media_Repository/PuTTY_nmtui_6.png" alt="PuTTY nmtui commands 6" title="PuTTY nmtui commands 6" width="40%"/> <img src="../Media_Repository/PuTTY_nmtui_7.png" alt="PuTTY nmtui commands 7" title="PuTTY nmtui commands 7" width="40%"/>
