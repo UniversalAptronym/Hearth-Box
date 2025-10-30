@@ -2,16 +2,16 @@ To-do:
 Secure communication only section, with dietpi.
 
 [<- Prev](../Instructions/Raspberry_Pi_Assembly.md) [Next ->](../Instructions/SSH_setup.md) 
+ 
+# __Full Home Server__
 
 ### __Surge Protection__
 
-For the safety of your electronics, we highly recommend that all power outlets you plug your equipment to are part of surge-protector, or a power strip with surge protection, to avoid losing your equipment and data to a power surge.
+For the safety of your electronics, we highly recommend that all power outlets you plug your equipment to are part of surge protector, or a power strip with surge protection, to avoid losing your equipment and data to a power surge.
 
 ### __Troubleshooting__
 
 When something goes wrong in this section, or the following SSH_Setup and CasaOS_Setup sections, diagnosing the issue can often be tricky. If this happens, we suggest restarting the process from this point. Unplug your Raspberry Pi and disconnect your SSD from it. Restart the process from this point.
- 
-# __Full Home Server__
 
 1. Install the [Raspberry Pi Imager](../Software_Repository/Raspberry_Pi_Imager.md) on your computer. This lets you turn your Raspbbery Pi from a lump of silicon into a working computer you can talk to.
 
@@ -35,10 +35,16 @@ If and ***only if*** you are going to be using a wireless connection for your Ra
 
 <img src="../Media_Repository/Pi_Imager_OS_settings_1.png" alt="Pi imager OS other" alt="Pi imager OS settings" title="Pi imager OS settings" width="30%"/> <img src="../Media_Repository/Pi_Imager_OS_settings_2.png" alt="Pi imager OS settings" title="Pi imager OS settings" width="30%"/> 
 
-7. Remove the USB plug of the SSD enclosure from your PC. Make sure your Pi is unplugged from any power outlet. Plug the USB plug of the SSD enclosure into the Pi. Plug your SSD enclosure's power outlet into a power outlet. Plug your Pi into a power outlet. Wait one minute while your Pi boots up. You now have a tiny functioning computer! 
-
+7.
+  - Remove the USB plug of the SSD enclosure from your computer.
+  - Make sure your Pi is unplugged from any power outlet.
+  - Plug the USB plug of the SSD enclosure into the Pi.
+  - Plug your SSD enclosure's power outlet into a power outlet.
+  - Plug your Pi into a power outlet.
+  - Wait one minute while your Pi boots up.
+ 
 # __Next Step__
 
-Your next step, to talk to the Pi, is to use SSH to connect to your Pi.
+You now have a tiny functioning computer! Your next step is to connect to it.
 
 [<- Prev](../Instructions/Raspberry_Pi_Assembly.md) [Next ->](../Instructions/SSH_setup.md) 
