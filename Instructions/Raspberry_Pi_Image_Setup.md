@@ -25,6 +25,8 @@ When something goes wrong in this section, or the following SSH_Setup and CasaOS
 
 4. For `Raspberry Pi Device` select 'Raspberry Pi 5'. For `Choose OS`, select 'Raspberry Pi OS (other)' and then 'Raspberry Pi OS Lite (64 bit)'. For 'Storage' select the SSD you have plugged in. This should be the only device which shows up unless you have other external storage devices plugged in.
 
+**CAUTION:** Be careful that you select 'Raspberry Pi OS Lite *(64 bit)*', and do not select 'Raspberry Pi OS Lite *(32 bit)*'.
+
 <img src="../Media_Repository/Pi_Imager_OS_Other.png" alt="Pi imager OS other" alt="Pi imager OS other" title="Pi imager OS other" width="30%"/> <img src="../Media_Repository/Pi_Imager_OS_Lite.png" alt="Pi imager OS lite" title="Pi imager OS lite" width="30%"/> <img src="../Media_Repository/Pi_Imager_OS_Complete.png" alt="Pi imager OS complete" title="Pi imager OS complete" width="30%"/> 
 
 5. Click `Next` and then `Edit Settings`. Fill in the settings. **Keep track of your Pi hostname, your Pi username (if different), and your Pi password!!!** These are very important. The Pi hostname will be used to connect to your Pi. The Pi username and password will be used to give commands to your Pi. **Be careful about entering your Pi password. There is no way to tell if you did this wrong.**
