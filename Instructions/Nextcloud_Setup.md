@@ -73,7 +73,7 @@ For the first line, replace everything inside the square brackets (including the
 
 <img src="../Media_Repository/Nextcloud_PHP_Settings_3.png" alt="Nextcloud PHP Settings 3" title="Nextcloud PHP Settings 3" width="55%"/> 
 
-11. Press the `X` button to close out the file system. Then click the `Nextcloud` app on your homepage to open Nextcloud.
+11. Press the `Save` button and then the `X` button to close out the file system. Then click the `Nextcloud` app on your homepage to open Nextcloud.
 
 <img src="../Media_Repository/Nextcloud_Install_9.png" alt="Nextcloud installation 9" title="Nextcloud installation 9" width="40%"/> <img src="../Media_Repository/Nextcloud_Install_10.png" alt="Nextcloud installation 10" title="Nextcloud installation 10" width="40%"/> 
 
