@@ -99,6 +99,11 @@ Steps 6 and 7 depend on if you are using a wired ethernet connection to connect 
 
 13. Use the `arrow keys` and your keyboard to edit `#ClientAliveInterval 0` to read `ClientAliveInterval 1000000`. This tells your Pi to leave SSH connections open for 1,000,000 seconds (more than a week, i.e. forever) before checking "Hey, are you still there?". Next edit `#ClientAliveCountMax 3` to read `ClientAliveCountMax 3`. This tells your Pi to check if a connection is dropped 3 times before closing a connection.
 
+```
+ClientAliveInterval 1000000
+ClientAliveCountMax 3
+```
+
 <img src="../Media_Repository/PuTTY_ssh_config_4.png" alt="PuTTY ssh config 4" title="PuTTY ssh config 4" width="40%"/>
 
 14. Press `ctrl+x` at the same time to save your edits to this file. Then type `y` and press Enter to confirm your changes. Then press Enter to confirm you are keeping the file's name as it is, and take you back to the normal terminal window.
