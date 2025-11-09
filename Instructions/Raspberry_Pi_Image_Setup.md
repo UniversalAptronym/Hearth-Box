@@ -43,7 +43,7 @@ If and ***only if*** you are going to be using a wireless connection for your Ra
   - Plug the USB plug of the SSD enclosure into the Pi.
   - Plug your SSD enclosure's power outlet into a power outlet.
   - Plug your Pi into a power outlet.
-  - Wait one minute while your Pi boots up.
+  - Wait a few minutes while your Pi boots up for the first time.
  
 # __Next Step__
 
