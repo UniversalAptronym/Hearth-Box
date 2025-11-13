@@ -42,6 +42,7 @@ Note: Terminal windows often do not accept `ctrl+v` commands to paste content. I
 <img src="../Media_Repository/CasaOS_Apps_1.png" alt="CasaOS Apps 1" title="CasaOS Apps 1" width="30%"/> <img src="../Media_Repository/CasaOS_Apps_2.png" alt="CasaOS Apps 2" title="CasaOS Apps 2" width="30%"/> <img src="../Media_Repository/CasaOS_Apps_3.png" alt="CasaOS Apps 3" title="CasaOS Apps 3" width="30%"/> 
 
 8. Type `https://github.com/bigbeartechworld/big-bear-casaos/archive/refs/heads/master.zip` into this bar and press Enter. This will add additional Apps you can install, maintained by Big Bear and the Big Bear community. If you scroll down, you'll see a bunch of apps with "BigBearCasaOS" as their listed category. We will be using software from here later.
+   - Author's note, 2025 Nov 12: CasaOS seems to have the Big Bear community app store enabled by default, making this step is unnecessary. We will be leaving it in for now, in case that changes again.
 
 <img src="../Media_Repository/CasaOS_Apps_4.png" alt="CasaOS Apps 4" title="CasaOS Apps 4" width="40%"/> <img src="../Media_Repository/CasaOS_Apps_5.png" alt="CasaOS Apps 5" title="CasaOS Apps 5" width="40%"/>
 
