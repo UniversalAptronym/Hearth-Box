@@ -5,7 +5,7 @@ To-do:
   - Calendar
   - Collectives
   - Contacts
-  - Nextcloud Office
+  - Edit files with LibreOffice
   - ! Ownership transfer
   - ! Registration
   - Secrets
