@@ -5,6 +5,7 @@ To-do:
   - Calendar
   - Collectives
   - Contacts
+  - Nextcloud Office
   - ! Ownership transfer
   - ! Registration
   - Secrets
