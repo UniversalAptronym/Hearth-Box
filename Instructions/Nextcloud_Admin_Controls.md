@@ -1,5 +1,5 @@
 To-do:
-- Apps
+- Apps to Install
   - Announcement center
   - ! Antivirus for files
   - Calendar
@@ -9,6 +9,10 @@ To-do:
   - ! Ownership transfer
   - ! Registration
   - Secrets
+- Apps to Disable
+  - Dashboard
+  - Photos
+
 
 setting: 'upgrade.disable-web' => false,
 
