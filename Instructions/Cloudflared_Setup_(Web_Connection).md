@@ -56,11 +56,11 @@ Note: If you ever move / get a new router, you may have to refresh your token. D
 
 ## __Setting Up Connections To Specific Programs__
 
-6. Finally, return to the Cloudflare webpage, scroll down, and click `Next` at the bottom of the page. This will take you to the page pictured below.
+6. Finally, return to the Cloudflare webpage, scroll down, and click `Published Application Routes` and then `+ Add a published application route`. This will take you to the second page pictured below.
+
+<img src="../Media_Repository/Cloudflare_Tunnel_Routes.png" alt="Cloudflare Tunnel Routes" title="Cloudflare Public Tunnel Routes" width="40%"/> <img src="../Media_Repository/Cloudflare_Public_Hostname_0.png" alt="Cloudflare Public Hostname Blank" title="Cloudflare Public Hostname Blank" width="40%"/>
   
 Note: You will return to this page multiple times. Depending on what part of the process you're at, the `Save` button will either say `Save Tunnel` or `Save Hostname`.
-
-<img src="../Media_Repository/Cloudflare_Public_Hostname_0.png" alt="Cloudflare Public Hostname Blank" title="Cloudflare Public Hostname Blank" width="50%"/>
 
 This next step will set up a series of sub-websites which you will use to access various functions of your Raspberry Pi. For example, `nextcloud.[exampleweburl]` (where `exampleWebURL` corresponds to your chosen **Web URL**, including the ".com", ".org", etc suffix on the end) will take you to your secure communications hub / cloudstorage. Meanwhile `pihole.[exampleweburl]` will take you to the control panel for an adblocker which will reduce the number of ads for all devices on your internet.
 
