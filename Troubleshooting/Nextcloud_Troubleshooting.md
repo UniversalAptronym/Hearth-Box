@@ -60,3 +60,9 @@ The server encountered an internal error and was unable to complete your request
 Please contact the server administrator if this error reappears multiple times, please include the technical details below in your report.
 More details can be found in the server log.`
 Nextcloud may needed to be restarted manually.
+
+### __Can't Delete Or Change Files__
+
+Something funky may have happened with file ownership. 
+
+Use `cd` to get to the file above your "data" folder inside of Nextcloud and use `sudo chown www-data data` to give ownership to "www-data", the Nextcloud ownership account.
