@@ -6,6 +6,10 @@ If you have a cooling fan (which you should if you followed the instructions), a
 
 The below is for the Raspberry Pi 5.
 ```
+sudo nano /boot/firmware/config.txt
+```
+
+```
 arm_freq=2800
 gpu_freq=700
 over_voltage=3
