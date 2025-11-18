@@ -27,4 +27,5 @@ dtparam=fan_temp2_hyst=6000
 dtparam=fan_temp2_speed=215
 dtparam=fan_temp3=61000
 dtparam=fan_temp3_hyst=6000
-dtparam=fan_temp3_speed=255```
+dtparam=fan_temp3_speed=255
+```
