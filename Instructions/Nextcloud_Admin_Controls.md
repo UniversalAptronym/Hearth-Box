@@ -9,9 +9,13 @@ To-do:
   - ! Ownership transfer
   - ! Registration
   - Secrets
+  - Talk
+- Apps to Enable
+  - Versions
 - Apps to Disable
   - Dashboard
   - Photos
+  - Weather
 
 
 setting: 
