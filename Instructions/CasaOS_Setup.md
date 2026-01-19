@@ -2,7 +2,7 @@
 
 # __CasaOS Setup__
 
-If typing into the terminal window was intimidating, don't worry! We exactly have two more lines to enter. Type the following line into terminal and press Enter. A lot of text will start scrolling. Wait for this to finish.
+If typing into the terminal window was intimidating, don't worry! We exactly have two more lines to enter. Type the following line into terminal and press Enter. A lot of text will start scrolling. Wait for this to finish. (Remember you need to login to your Pi first, redoing Step 2 of the previous section.)
 
 Note: Terminal windows often do not accept `ctrl+v` commands to paste content. If you want to paste the following command, you may have to right-click in the terminal window (on some systems this automatically pastes text) or right-click and select paste.
 
