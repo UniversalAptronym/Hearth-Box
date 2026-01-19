@@ -19,7 +19,6 @@ To-do:
 
 
 setting: 
-- 'upgrade.disable-web' => false,
 - 'skeletondirectory' => '/DATA/AppData/big-bear-nextcloud/html/core/default_files',
 - 'overwriteprotocol' => 'https',
 - 'filelocking.enabled' => false,
